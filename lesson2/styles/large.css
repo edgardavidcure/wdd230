@@ -1,0 +1,9 @@
+@media only screen and (min-width: 65em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+    }
+    #column3 {
+        grid-column: span 1;
+    }
+}
