@@ -16,7 +16,7 @@
         grid-template-columns: 1fr ;
     }
     
-    #home-grid h1, h2 {
+    #home-grid h1, #home-grid h2 {
         
         font-size: 1.1em;
         
@@ -38,7 +38,38 @@
         flex-direction: column;
         font-size: .8em;
     }
+
+    h1{
+        padding-top: 30px;
+    }
     
 
+    /*PAGE 2*/
+    #audience-grid {
+        grid-template-columns: 1fr;
+    }
+    #audience-grid h1, #audience-grid h2 {
+        
+        font-size: 1.1em;
+        
+    }
+        
+    #audience-grid p{
+        
+        font-size: .8em;
+        line-height: 20px;
+        padding: 0 40px;
+    }
     
+    section img{
+        max-width: 200px;
+        max-height: 140px;
+        
+    }
+    
+    
+    hr {
+        border-top: 2px solid #023C40  ;
+        
+    }
 }

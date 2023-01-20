@@ -22,7 +22,7 @@
         grid-template-columns: 1fr 1fr 1fr ;
     }
     
-    #home-grid h1, h2 {
+    #home-grid h1, #home-grid h2 {
         grid-column: 2/3;
         font-size: 1.4em;
         
@@ -30,8 +30,6 @@
     
     #home-grid p{
         grid-column: 2/3;
-        font-family: "Open Sans";
-        text-align: justify;
         font-size: 1.1em;
     }
     
@@ -46,6 +44,42 @@
     footer p, a {
         font-size: 1em;
     }
+    h1{
+        padding-top: 30px;
+    }
+    /*PAGE 2*/
+    #audience-grid {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    #audience-grid h1, #audience-grid h2 {
+        grid-column: 2/3;
+        font-size: 1.4em;
+        
+    }
     
     
+    
+    #audience-grid p{
+        grid-column: 2/3;
+        font-size: 1.1em;
+        line-height: 28px;
+    }
+    
+    section img{
+        
+        max-width: 300px;
+        max-height: 220px;
+        
+    }
+    #persona1, #persona2, article {
+        grid-column: 2/3;
+        
+    }
+    
+    
+    hr {
+        border-top: 2px solid #023C40  ;
+        grid-column: 2/3;
+        
+    }
 }
