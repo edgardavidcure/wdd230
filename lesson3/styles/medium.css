@@ -1,0 +1,51 @@
+@media only screen and (max-width: 50em){
+
+
+    header {
+        grid-template-columns: 150px auto;
+        
+    }
+    
+    #nav-logo {
+        max-width: 150px;
+        max-height: 150px;
+        
+    }
+    
+    nav a {
+        font-size: 1.2em;
+    
+        
+    }
+    
+    #home-grid {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    
+    #home-grid h1, h2 {
+        grid-column: 2/3;
+        font-size: 1.4em;
+        
+    }
+    
+    #home-grid p{
+        grid-column: 2/3;
+        font-family: "Open Sans";
+        text-align: justify;
+        font-size: 1.1em;
+    }
+    
+    #home-grid img{
+        grid-column: 2/3;
+        width: 400px;
+        height: 300px;
+
+    }
+
+    
+    footer p, a {
+        font-size: 1em;
+    }
+    
+    
+}
