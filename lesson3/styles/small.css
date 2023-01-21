@@ -72,4 +72,28 @@
         border-top: 2px solid #023C40  ;
         
     }
+
+    /*PAGE 3*/
+    #design-grid {
+        grid-template-columns: 1fr ;
+    }
+    
+    
+    #design-grid p{
+        font-size: .8em;
+        line-height: 20px;
+        padding: 20px 30px;
+        
+    }
+    
+    #design-grid h5 {
+        font-size: 1em;
+    }
+    
+    
+    #design-grid table{
+        
+        font-size: 1em;
+        
+    }
 }

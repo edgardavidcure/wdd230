@@ -20,7 +20,7 @@ header {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-family: "Unbounded", sans-serif;
     font-size: 1.4em;
 
@@ -116,7 +116,84 @@ section img{
 }
 
 hr {
-    border-top: 5px solid #023C40  ;
+    border-top: 3px solid #023C40  ;
     grid-column: 2/4;
     width: 100%;
+} 
+
+/* PAGE 3*/
+#design-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+#design-grid h1, #design-grid h2, #design-grid h3, #design-grid h4, #design-grid h5 {
+    grid-column: 2/4;
+    font-family: "Unbounded", sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#design-grid p{
+    grid-column: 2/4;
+    font-family: "Open Sans";
+    font-size: 1.2em;
+    padding: 20px 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+#design-grid h5 {
+    font-size: 1.5em;
+}
+
+
+#design-grid table{
+    grid-column: 2/4;
+    font-family: "Open Sans";
+    font-size: 1.2em;
+    padding: 50px 0;
+    line-height: 30px;
+    text-align: center;
+}
+#primary-color {
+    background-color: #31081f;
+    color: white;
+    
+}
+#secondary-color {
+    background-color: #ffffff;
+    
+    
+}
+
+#accent-color1 {
+    background-color: #023C40;
+    color: white;
+    
+}
+#accent-color2 {
+    background-color: #93C0A4;
+    
+    
+}
+
+td{
+    border: 2px solid #023C40;
+}
+
+table {
+    grid-column: 2/4;
+}
+
+#colored {
+    background-color: #023C40;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+
+
+
+
+
