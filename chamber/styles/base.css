@@ -159,7 +159,7 @@ nav {
 
 #spotlight div {
     margin: 20px;
-    height: 180px;
+    height: 100%;
 }
 #join {
     display: none;

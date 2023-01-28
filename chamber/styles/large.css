@@ -1,9 +1,12 @@
 @media only screen and (min-width: 70em){
-    
+    body{
+        display: grid;
+        grid-template-rows:  auto 1fr auto;
+        min-height: 100vh;
+    }
 
     header {
         grid-template-columns: 250px auto 200px;
-        
         
     }
     
@@ -86,7 +89,7 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        
     }
     
     #spotlight div {
@@ -104,8 +107,10 @@
         grid-column: 1/2;
         grid-row: 1;
     }
+   
     #spotlight3 {
         display: block;
+        
     }
 
 
