@@ -134,17 +134,18 @@ nav {
 }
 
 #home-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: auto;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     margin: 20px 20px 0;
+    
 }
 #home-grid div {
-    background-color: #93C0A4;
+    background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid #023C40;
     width: auto;
+    
+    
     
 }
 #home-grid p{
@@ -153,23 +154,160 @@ nav {
     font-size: 1em;
     padding: 20px;
 }
+#hero-img {
+    position: relative;
+}
+#hero-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#hero-img h1{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 1.6rem;
+    font-family: "Unbounded";
+    color: #31081f;
+    text-shadow:0 0 40px #ffffff ;
+    
+}
+
+#hero-img button {
+    background-color: #023C40;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: "Open sans";
+    padding: 12px 28px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    
+}
+
+#hero-img button:hover {
+    background-color: rgba(0, 0, 0, .8);
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+#event {
+    text-align: center;
+}
+
+#event h1, #event h2 {
+    font-family: "unbounded";
+    color: #023C40;
+}
+
+#event h1 {
+    font-size: 1.4rem;
+}
+#event h2 {
+    font-size: 1.2rem;
+}
+#event p {
+    font-family: "open sans";
+    font-size: 1rem;
+    text-align: left;
+}
+#event span{
+    color: #023C40;
+}
+
+#weather {
+    text-align: center;
+    font-family: "unbounded";
+    
+}
+
+#weather h1{
+    color: #023C40;
+    font-size: 1.4rem;
+    
+}
+#weather h2{
+    color: #31081f;
+    font-size: 1.2rem;
+    
+}
+
+#news h1{
+    font-family: "unbounded";   
+    font-size: 1.4rem;
+    color: #023C40; 
+    text-align: center;
+}
+#news p{
+    font-family: "Open sans";   
+    font-size: 1rem;
+    text-align: left;
+}
+
+
 
 #spotlight {
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 #spotlight div {
     margin: 20px;
     height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
 }
+
 #join {
     display: none;
 }
-#spotlight3 {
+#spotlight img{
+    width: 100px;
+    height: auto;
+    align-self: center;
+}
+
+#spotlight1 h1{
+    text-align: center;
+    font-family: "unbounded";
+    font-size: 1.4rem;
+    color: #023C40;
+    
+}
+#spotlight1 p{
+    text-align: center;
+    font-family: "open sans";
+    font-size: 1rem;
+}
+#spotlight2 h1 {
+    text-align: center;
+    font-family: "unbounded";
+    font-size: 1.4rem;
+    color: #023C40;
+}
+#spotlight2 p{
+    text-align: center;
+    font-family: "open sans";
+    font-size: 1rem;
+}
+hr{
+    color: #31081f;
+    width: 80%;
+}
+#spotlight #spotlight3 {
     display: none;
+}
+
+#spotlight p{
+    margin: 0;
 }
 
 footer {
