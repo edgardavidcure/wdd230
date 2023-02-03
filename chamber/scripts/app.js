@@ -20,7 +20,17 @@ function toggleMenu(){
 const x = document.getElementById("hamburguerBtn");
 x.onclick = toggleMenu;
 
+if (now.getDay() === 1 || now.getDay() == 2){
+  document.getElementById("banner").style.display = "flex";
+} else{
+  document.getElementById("banner").style.display = "none";
+}
 
+const closeButton = document.getElementById("closeBanner");
+closeButton.addEventListener("click", () => {
+  document.getElementById("banner").style.display = "none"
+}
+)
 
 function weatherBalloon( cityID ) {
     var key = "582b55efa5e27910234adbbf3225cdad";
@@ -46,3 +56,4 @@ function drawWeather( d ) {
 	document.getElementById('temp').innerHTML = fahrenheit + '&deg;';
 	document.getElementById('location').innerHTML = d.name;
 }
+

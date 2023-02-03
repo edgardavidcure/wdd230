@@ -137,6 +137,34 @@ nav {
     font-size: .7em;
 }
 
+#banner {
+    display: flex;
+    flex-direction: row;
+    grid-column: 1/4;
+    background-color: #93C0A4;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+#banner p {
+    margin: 5px;
+    color: #31081f;
+    font-family: "Open Sans";
+    font-style: italic;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+#banner p:nth-child(1){
+    margin-left: auto;
+}
+#banner #closeBanner {
+    margin-left: auto;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
 #home-grid {
     display: flex;
     flex-direction: column;
