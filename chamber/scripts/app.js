@@ -24,7 +24,7 @@ x.onclick = toggleMenu;
 
 function weatherBalloon( cityID ) {
     var key = "582b55efa5e27910234adbbf3225cdad";
-    fetch("https://api.openweathermap.org/data/2.5/weather?id=" + cityID+ "&appid=" + "3045dd712ffe6e702e3245525ac7fa38")  
+    fetch("https://api.openweathermap.org/data/2.5/weather?id=" + cityID+ "&appid=" + "582b55efa5e27910234adbbf3225cdad")  
     .then(function(resp) { return resp.json() }) // Convert data to json
     .then(function(data) {
       drawWeather(data);
