@@ -53,8 +53,8 @@
     #hero-img {
         grid-column: 1/4;
         grid-row: 1/2;
-        background: url(../images/montclair-hero-img.jpeg) no-repeat;
-        background-size: 100% 100%;
+        /*background: url(../images/montclair-hero-img.jpeg) no-repeat;
+        background-size: 100% 100%;*/
         min-height: 400px;
         
     }
