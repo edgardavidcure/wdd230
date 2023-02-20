@@ -19,7 +19,7 @@ if ("IntersectionObserver" in window) {
         if (item.isIntersecting) {
           loadImages(item.target);
           observer.unobserve(item.target);}
-        });
+        }, options);
       }); imagesToLoad.forEach((img) => {
       observer.observe(img);
     });
