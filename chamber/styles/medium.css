@@ -53,8 +53,8 @@
     #hero-img {
         grid-column: 1/4;
         grid-row: 1/2;
-        /*background: url(../images/montclair-hero-img.jpeg) no-repeat;
-        background-size: 100% 100%;*/
+        background: url(../images/montclair-hero-img.jpeg) no-repeat;
+        background-size: 100% 100%;
         min-height: 400px;
         
     }
@@ -237,6 +237,57 @@
     }
    
 
+/*DISCOVER PAGE*/
+/*????????????????????????????????????????????????????????*/
+#discover-grid img:hover {
+    box-shadow: 0 0 20px #333;
+}
+#discover-grid img {
+    width: 700px;
+    height: auto;
+    
+}
 
+#discover-grid p{
+    font-family: "open sans", sans-serif;
+
+}
+
+#discover-grid h1, #discover-grid h2 {
+    font-family: "unbounded", sans-serif;
+}
+
+#discover-hero{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 40px;
+}
+
+#discover-hero img{
+    width: 700px;
+    height: auto;
+    border-radius: 20px;
+}
+#hero-box { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#hero-box p{
+    font-size: 1.2em;
+}
+#discover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0px;
+    padding: 0px 20px;
+}
 
 }
