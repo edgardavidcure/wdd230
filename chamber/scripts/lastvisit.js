@@ -19,6 +19,8 @@ if (lastVisit) {
     document.getElementById("LastVisit").innerText = `Last visit: ${diffDays} days ago`;
     
   }
+} else{
+    document.getElementById("LastVisit").innerText = "This is your first visit"
 }
 
 // Store the current visit date in local storage
