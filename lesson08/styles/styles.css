@@ -1,0 +1,42 @@
+table {
+    border: thin solid black;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+thead tr{
+    background-color: black;
+    color: white;
+
+    
+    
+}
+td{
+    border: 0px thin black;
+    border: 1px solid black;
+
+
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgray;
+    
+}
+
+thead tr:nth-child(2) th:nth-child(2), thead tr:nth-child(2) th:nth-child(3), thead tr:nth-child(2) th:nth-child(4) {
+    background-color: gray;
+}
+.red {
+    color: red;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+}
