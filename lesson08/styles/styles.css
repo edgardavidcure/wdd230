@@ -40,3 +40,8 @@ thead tr:nth-child(2) th:nth-child(2), thead tr:nth-child(2) th:nth-child(3), th
 .blue{
     color: blue;
 }
+caption{
+    padding: 10px;
+    caption-side: bottom;
+    font-size: 15px;
+}
