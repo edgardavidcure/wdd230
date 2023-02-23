@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 Start Site by Paul Cheney</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+ <h1>Course Proposal</h1>
+        <h2>Designing Web Forms</h2>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <ul >
+            <li><a href="#">About</a></li>
+            <li class="active"><a href="#">Propose</a></li>
+            <li><a href="#">Winners</a></li>
+            <li><a href="#">Contact</a></li>    
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+<main>
+    <h1>Course Proposal Application</h1>
+    <form method="get"action="thanks.html">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top" for=""> First Name* <input type="text" name="fname" id="" required></label>
+            <label class="top"for=""> Last Name* <input type="text" name="lname" id="" required></label>
+            <label class="top"for=""> Phone <input type="tel" name="phone" id="" placeholder="1234567890"></label>
+            <label class="top"for=""> Email* <input type="email" name="email" id="" required placeholder="someone@mail.com"></label>
+            <label class="top"for=""> Website <input type="url" name="url" id="" placeholder="http://"></label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Course Information</legend>
+            <div>Audience</div>
+            <label class="sbs" for=""><input type="radio" name="audience" value="beginner"> Beginner</label>
+            <label class="sbs" for=""><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+            <label class="sbs" for=""><input type="radio" name="audience" value="advanced"> Advanced</label>
+
+            <div>Sotware Needed</div>
+            <label class="sbs"for=""><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
+            <label class="sbs"for=""><input type="checkbox" name="code" value="yes"> Coding</label>
+            <label class="sbs"for=""><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+            <label class="sbs"for=""><input type="checkbox" name="client" value="yes"> FTP Client</label>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Funding</legend>
+            <label class="top"for="">Anticipated Completion Date <input type="date" name="completeDate" id=""></label>
+            <label class="top"for="">Course Subject 
+                <select name="subject" id="">
+                    <option value="">Please Select &#9662;</option>
+                    <option value="software">Software Development</option>
+                    <option value="creative">Creative Professional</option>
+                    <option value="info">Information Technology</option>
+                    <option value="data">Data Professional</option>
+                    <option value="construction">Construction</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="business">Business Admin</option>
+                    <option value="security">Cybersecurity</option>
+
+                </select>
+            </label>
+            <label class="top"for="">How Many Authors <input type="number" name="authors" id=""></label>
+
+
+        </fieldset>
+        <input class="submitBtn"type="submit" value="proposeMyCourse" name="" id="">
+    </form>
+
+          
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        &copy; 2018 &bull; Paul Cheney &bull; 123-555-6789
+    </footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>
