@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="The Home page for the chamber of commerce intends to provide users with valuable information about Montclair businesses and show important information like weather, news, events, etc.">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Discover - Montlcair Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img id="nav-logo" src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
+        </a>
+        <div id="social-media">
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.png" alt="Logo of Instagram">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.png" alt="Logo of Facebook">
+            </a>
+        </div>
+        <nav>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+        <div class="date"></div>
+        <div id="banner">
+            <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
+            <p id="closeBanner">x</p>
+        </div>
+    </header>
+    <main id="join-grid">
+    
+        <div id="memberships">
+            <table>
+                <thead>
+                    
+                    <tr>
+                        <th>Membership Benefits</th>
+                        <th>Non-Profit</th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Marketing Training</th>
+                        <td class="np">&check;</td>
+                        <td class="bronze">&check;</td>
+                        <td class="silver">&check;</td>
+                        <td class="gold">&check;</td>
+
+                    </tr>
+                    <tr>
+                        <th>Advertising</th>
+                        <td class="np">X</td>
+                        <td class="bronze">&check;</td>
+                        <td class="silver">&check;</td>
+                        <td class="gold">&check;</td>
+
+                    </tr>
+                    <tr>
+                        <th>Event Discounts</th>
+                        <td class="np">X</td>
+                        <td class="bronze">X</td>
+                        <td class="silver">&check;</td>
+                        <td class="gold">&check;</td>
+
+                    </tr>
+                    <tr>
+                        <th>Cost</th>
+                        <th>Free</th>
+                        <th>$100</th>
+                        <th>$200</th>
+                        <th>$400</th>
+                    </tr>
+                </tbody>
+        
+            </table>
+        </div>
+        <div id="join-TextBox">
+            <h1>Join The Chamber</h1>
+            <p>Membership benefits for Montclair Businesses</p>
+        </div>
+        <div id="form">
+            <form method="get"action="thankyou.html">
+                <fieldset>
+                    <legend>Business/Applicant Information</legend>
+                    <label class="top" for=""> First Name* <input type="text" name="fname" id="" required></label>
+                    <label class="top"for=""> Last Name* <input type="text" name="lname" id="" required></label>
+                    <label class="top"for=""> Title <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" title="Please enter at least 7 alphabetical characters, hyphens or spaces" ></label>
+                    <label class="top"for=""> Email* <input type="email" name="email" id="" required placeholder="business@email.com"></label>
+                    <label class="top"for=""> Cell Phone <input type="tel" name="phone" id="" placeholder="1234567890"></label>
+                    <label class="top"for=""> Business Name/Title* <input type="text" name="businessTitle" id="" required></label>
+                    <label class="top"for=""> Business Description <input type="text" name="businessDescription" id=""></label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Information</legend>
+                    <div>Membership Options</div>
+                    <label class="sbs" for=""><input type="radio" name="membership" value="nonProfit"> Non-Profit - Free</label>
+                    <label class="sbs" for=""><input type="radio" name="membership" value="bronze"> Bronze - $100</label>
+                    <label class="sbs" for=""><input type="radio" name="membership" value="silver"> Silver - $200</label>
+                    <label class="sbs" for=""><input type="radio" name="membership" value="gold"> Gold - $400</label>
+
+                </fieldset>
+
+            
+                <input class="submitBtn"type="submit" value="Join" name="join" id="">
+            </form>
+        </div>
+        
+    </main>
+    <footer id="footer-grid">
+        <img src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
+        <div class="contact-info">
+            <h5>Montlcair Chamber of Commerce</h5>
+            <h6>111 W Main St</h6>
+            <h6>Montlcair, CA 91763</h6>
+        </div>
+        <div class="contact-info">
+            <h6>info@montclairchamber.org</h6>
+            <h6>+1(909) 123 4567</h6>
+            <a href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"><h6>Montclair Map</h6></a>
+        </div>
+        <div class="pageInfo">
+            <p id="webInfo"></p>
+            <p id="LastVisit"></p>
+        </div>
+        
+    </footer>
+<script src="scripts/app.js"></script>
+<script src="scripts/lastvisit.js"></script>
+</body>
+</html>
