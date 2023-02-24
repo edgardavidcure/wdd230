@@ -524,7 +524,6 @@ table {
     font-size:1.4vh;
     text-align: center;
     border-collapse: separate;
-    border-spacing: 0.5%;
     background-color: transparent;
 }
 
@@ -612,7 +611,6 @@ form legend{
     font-family: "unbounded";
     background-color: #023C40;
     border-radius: 10px;
-    box-shadow: 20px black;
 }
 input{
     margin: 0;
@@ -621,7 +619,6 @@ input{
 form label.top{
     display: flex;
     flex-direction: column;
-    align-items: left;
     padding-top: 1rem;
     color: #31081f;
     font-size: 1.1rem;
@@ -632,7 +629,6 @@ form label.top{
 
 
 form label.top input{
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
