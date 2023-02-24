@@ -316,7 +316,8 @@
 }
 
 table {
-    font-size:1.7vh;
+    font-size:1.9vw;
+    
 }
 
 th{
@@ -325,7 +326,7 @@ th{
 }
 
 thead tr th{
-    padding: 20px 30px;
+    padding: 20px 20px;
     
 }
 

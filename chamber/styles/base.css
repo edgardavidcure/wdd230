@@ -513,6 +513,8 @@ footer img {
 
 #memberships {
     width: 470px;
+    min-width: fit-content;
+    max-width: fit-content;
     padding: 1% 0;
     background-color: white;
     border-radius: 20px;
@@ -521,7 +523,7 @@ footer img {
 }
 
 table {
-    font-size:1.4vh;
+    font-size:1vh;
     text-align: center;
     border-collapse: separate;
     background-color: transparent;
