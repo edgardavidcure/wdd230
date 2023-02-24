@@ -560,12 +560,13 @@ tbody tr:nth-child(even){
     
 }
 
-.red {
+.cross {
     color: red;
     font-weight: bold;
 }
-.blue{
-    color: blue;
+.check{
+    color: green;
+    font-weight: bolder;
 }
 
 
