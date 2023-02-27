@@ -44,8 +44,7 @@ function weatherBalloon( cityID ) {
     });
   }
   
-  window.onload = function() {
- 
+window.onload = function() {
   weatherBalloon( 5374232 );
 }
 
