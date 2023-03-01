@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name" : "A Storage Place",
+            "address" : "5220 W. Mission Blvd. Montclair, CA 91762",
+            "phone" : "909-464-1727",
+            "websiteurl" : "https://www.astorageplace.com/self-storage/ca/montclair/a-storage-place-of-montclair/",
+            "image" : "images/astorageplace.png",
+            "membershiplevel" : null  
+        },
+        {
+            "name" : "Ashley Furniture HomeStore",
+            "address" : "5055 S. Plaza Lane Montclair, CA 91763",
+            "phone" : "909-625-4420",
+            "websiteurl" : "https://www.ashleyfurniture.com",
+            "image" : "images/ashleyfurniture.svg",
+            "membershiplevel" : null  
+        },
+        {
+            "name" : "Ben Bridge Jeweler, Inc.",
+            "address" : "5031 Montclair Plaza Lane Montclair, CA 91763",
+            "phone" : "909-625-4160",
+            "websiteurl" : "https://www.benbridge.com",
+            "image" : "images/benbridge.png",
+            "membershiplevel" : null  
+        },
+        {
+            "name" : "Chaffey Federal Credit Union",
+            "address" : "1024 W. Foothill Blvd Upland, CA 91786",
+            "phone" : "909-986-4552",
+            "websiteurl" : "http://www.chaffey.com",
+            "image" : "images/chaffeycreditunion.png",
+            "membershiplevel" : null
+        },
+        {
+            "name" : "City of Montclair",
+            "address" : "5111 Benito Street Montclair, CA 91763",
+            "phone" : "909-625-9401",
+            "websiteurl" : "http://www.ci.montclair.ca.us/",
+            "image" : "images/cityofmontclair.png",
+            "membershiplevel" : null
+        },
+        {
+            "name" : "Fast & EZ Self Storage",
+            "address" : "5445 Olive Street Montclair, CA 91763",
+            "phone" : "909-985-9914",
+            "websiteurl" : "http://www.fastandezselfstorage.com/",
+            "image" : "images/fastandezstorage.png",
+            "membershiplevel" : null
+        },
+        {
+            "name" : "Gold's Gym",
+            "address" : "5150 Moreno Street Montclair, CA 91763",
+            "phone" : "909-399-9992",
+            "websiteurl" : "https://www.goldsgym.com",
+            "image" : "images/goldsgym.svg",
+            "membershiplevel" : null
+        },
+        {
+            "name" : "John's Incredible Pizza",
+            "address" : "5280 Arrow Hwy. Montclair, CA 91763",
+            "phone" : "909-447-7777",
+            "websiteurl" : "https://www.johnspizza.com",
+            "image" : "images/johnspizza.png",
+            "membershiplevel" : null
+        },
+        {
+            "name" : "Monte Vista Water District",
+            "address" : "10575 Central Ave. Montclair, CA 91763",
+            "phone" : "909-267-2114",
+            "websiteurl" : "https://www.mvwd.org",
+            "image" : "images/montevistawater.png",
+            "membershiplevel" : null
+        }
+    ]
+}

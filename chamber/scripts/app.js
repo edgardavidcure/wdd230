@@ -100,5 +100,3 @@ if ("IntersectionObserver" in window) {
       loadImages(img);
     });
   }
-
-console.log(localStorage)

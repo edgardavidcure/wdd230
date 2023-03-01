@@ -386,4 +386,52 @@ form input.submitBtn{
     font-size: 2rem;
 }
 
+
+
+
+
+
+
+/*DISCOVERY PAGE*/
+/*????????????????????????????????????????????????????????*/
+#directory-grid h1{
+    font-size: 2.2rem;
+    margin: 30px auto 50px;
+    
+}
+.cards img {
+    max-height: 150px;
+    max-width: 300px;
+}
+  
+.cards section > p {
+    font-size: 1.1rem;
+}
+
+.cards a{
+    font-size: 1.1rem;
+}
+
+
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    
+}
+
+.list h2 {
+    font-size: 1.1rem;
+}
+
+.list section p{
+    font-size: 1.1rem;
+    margin: 6px;
+
+}
+
+.list section a{
+    margin: 8px;
+}
+
 }

@@ -387,4 +387,51 @@ form input.submitBtn{
 
 
 
+
+/*DISCOVERY PAGE*/
+/*????????????????????????????????????????????????????????*/
+
+#directory-grid{
+    margin: 20px 30px;
+}
+ 
+
+.cards img {
+    max-height: 170px;
+    max-width: 320px;
+}
+  
+
+section > p {
+    font-size: 1.2rem;
+
+}
+
+.cards a{
+    padding: 0 20px 20px;
+    font-size: 1.2rem;
+
+}
+
+
+.list section {
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.list h2 {
+    font-size: 1.3rem;
+}
+
+.list section p{
+    font-size: 1.2rem;
+
+}
+
+.list section a{
+    font-size: 1.1rem;
+}
+
+
 }

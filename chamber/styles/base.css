@@ -570,16 +570,6 @@ tbody tr:nth-child(even){
     font-weight: bolder;
 }
 
-
-
-
-
-
-
-
-
-
-
 #form {
     width:100%;
 }
@@ -679,7 +669,118 @@ form label.top input:required:valid{
 
 
 
+/*DISCOVERY PAGE*/
+/*????????????????????????????????????????????????????????*/
+
+#directory-grid{
+    margin: 20px 20px;
+}
+#directory-grid h1{
+    font-family: "unbounded";
+    text-align: center;
+    margin: 30px auto 50px;
+    
+}
+#menu{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+#menu button{ 
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#menu button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#menu button.active{
+    background-color: #31081f;
+    color: white;
+}
 
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 0;
+    
+}
+.cards img {
+    max-height: 120px;
+    max-width: 240px;
+    margin-bottom: 30px;
+}
 
+.cards h2{
+    display: none;
+}
+  
+.cards section {
+    margin: 0.5rem;
+    padding: 0.35rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: auto;
+}
+.cards section > p {
+    margin-top: 0px;
+    text-align: center;
+    font-family: "open-sans";
+}
 
+.cards a{
+    padding: 0 20px 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: auto;
+    
+}
+
+.list h2 {
+    display: block;
+    text-align: left;
+    font-family: "unbounded";
+    font-size: 1rem;
+}
+
+.list section p{
+    font-size: 1rem;
+    margin: 3px;
+    text-align: left;
+    font-family: "open-sans";
+
+}
+
+.list section a{
+    margin: 5px;
+}
+
+.list img{
+    display: none;
+
+}
+.list section:nth-child(even) {
+	background-color: #bcdac8;
+}

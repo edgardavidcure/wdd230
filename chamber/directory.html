@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="The Home page for the chamber of commerce intends to provide users with valuable information about Montclair businesses and show important information like weather, news, events, etc.">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Directory - Montlcair Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img id="nav-logo" src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
+        </a>
+        <div id="social-media">
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.png" alt="Logo of Instagram">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.png" alt="Logo of Facebook">
+            </a>
+        </div>
+        <nav>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+        <div class="date"></div>
+        <div id="banner">
+            <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
+            <p id="closeBanner">&#10005;</p>
+        </div>
+    </header>
+    <main id="directory-grid">
+        <h1>Business Directory</h1>
+        <div id="menu">
+            <button id="gridview" class="active"><i class="fa fa-th-large "></i></button> 
+            <button id="listview"><i class="fa fa-bars "></i></button>
+        </div>
+        <div class="cards"></div>
+    </main>
+    <footer id="footer-grid">
+        <img src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
+        <div class="contact-info">
+            <h5>Montlcair Chamber of Commerce</h5>
+            <h6>111 W Main St</h6>
+            <h6>Montlcair, CA 91763</h6>
+        </div>
+        <div class="contact-info">
+            <h6>info@montclairchamber.org</h6>
+            <h6>+1(909) 123 4567</h6>
+            <a href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"><h6>Montclair Map</h6></a>
+        </div>
+        <div class="pageInfo">
+            <p id="webInfo"></p>
+            <p id="LastVisit"></p>
+        </div>
+        
+    </footer>
+<script src="scripts/directory.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/lastvisit.js"></script>
+</body>
+</html>
