@@ -680,6 +680,7 @@ form label.top input:required:valid{
     text-align: center;
     margin: 30px auto 50px;
     
+    
 }
 #menu{
     display: flex;
@@ -783,4 +784,25 @@ form label.top input:required:valid{
 }
 .list section:nth-child(even) {
 	background-color: #bcdac8;
+}
+
+
+#myInput {
+    display: flex;
+    margin: 30px auto;
+    background-position: 10px 12px; 
+    width: 230px; 
+    font-size: 1rem; 
+    font-family: "open sans";
+    padding: 12px 20px 12px 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 20px;
+  }
+
+#noBusinessFound{
+    font-family: "unbounded";
+    font-size: 1.5rem;
+    color: #999;
+    font-style: italic;
+    text-align: center;
 }
