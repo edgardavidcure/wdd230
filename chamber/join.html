@@ -105,31 +105,31 @@
             <p>Membership benefits for Montclair Businesses</p>
         </div>
         <div id="form">
-            <form method="get"action="thankyou.html">
+            <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Business/Applicant Information</legend>
-                    <label class="top" for=""> First Name* <input type="text" name="fname" id="" required></label>
-                    <label class="top"for=""> Last Name* <input type="text" name="lname" id="" required></label>
-                    <label class="top"for=""> Title <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" title="Please enter at least 7 alphabetical characters, hyphens or spaces" ></label>
-                    <label class="top"for=""> Email* <input type="email" name="email" id="" required placeholder="business@email.com"></label>
-                    <label class="top"for=""> Cell Phone <input type="tel" name="phone" id="" placeholder="1234567890"></label>
-                    <label class="top"for=""> Business Name/Title* <input type="text" name="businessTitle" id="" required></label>
-                    <label class="top"for=""> Business Description <input type="text" name="businessDescription" id=""></label>
+                    <label class="top" for="firstname"> First Name* <input type="text" name="fname" id="firstname" required></label>
+                    <label class="top" for="lastname"> Last Name* <input type="text" name="lname" id="lastname" required></label>
+                    <label class="top" for="title"> Title <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" title="Please enter at least 7 alphabetical characters, hyphens or spaces" ></label>
+                    <label class="top" for="email"> Email* <input type="email" name="email" id="email" required placeholder="business@email.com"></label>
+                    <label class="top" for="cellphone"> Cell Phone <input type="tel" name="phone" id="cellphone" placeholder="1234567890"></label>
+                    <label class="top" for="businessname"> Business Name/Title* <input type="text" name="businessTitle" id="businessname" required></label>
+                    <label class="top" for="businessdescription"> Business Description <input type="text" name="businessDescription" id="businessdescription"></label>
 
                 </fieldset>
                 <fieldset>
                     <legend>Membership Type</legend>
                     <div>Membership Options</div>
-                    <label class="sbs" for=""><input type="radio" name="membership" value="nonProfit"> Non-Profit - Free</label>
-                    <label class="sbs" for=""><input type="radio" name="membership" value="bronze"> Bronze - $100</label>
-                    <label class="sbs" for=""><input type="radio" name="membership" value="silver"> Silver - $200</label>
-                    <label class="sbs" for=""><input type="radio" name="membership" value="gold"> Gold - $400</label>
-                    <input type="hidden" id="date"name="date" value="currentDate">
+                    <label class="sbs" for="nonprofit"><input type="radio" name="membership" value="nonProfit" id="nonprofit"> Non-Profit - Free</label>
+                    <label class="sbs" for="bronze"><input type="radio" name="membership" value="bronze" id="bronze"> Bronze - $100</label>
+                    <label class="sbs" for="silver"><input type="radio" name="membership" value="silver" id="silver"> Silver - $200</label>
+                    <label class="sbs" for="gold"><input type="radio" name="membership" value="gold" id="gold"> Gold - $400</label>
+                    <input type="hidden" id="date" name="date" value="currentDate">
                     
                 </fieldset>
 
             
-                <input class="submitBtn"type="submit" value="Join" name="join" id="">
+                <input class="submitBtn" type="submit" value="Join" name="join">
             </form>
         </div>
         
