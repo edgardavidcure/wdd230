@@ -71,6 +71,30 @@
             "websiteurl" : "https://www.mvwd.org",
             "image" : "images/montevistawater.png",
             "membershiplevel" : null
+        },
+        {
+            "name" : "Los Portales Grill & Seafood Mexican Restaurant",
+            "address" : "10244 Central Avenue Montclair, CA 91763",
+            "phone" : "909-621-2013",
+            "websiteurl" : "http://www.losportalesmexicangrill.com",
+            "image" : "images/losportales.png",
+            "membershiplevel" : null
+        },
+        {
+            "name" : "Metro Autogroup- Honda & Acura",
+            "address" : "9399 Autoplex Drive Montclair, CA 91763",
+            "phone" : "909-447-6027",
+            "websiteurl" : "https://www.metrohonda.com",
+            "image" : "images/metrohonda.jpeg",
+            "membershiplevel" : null
+        },
+        {
+            "name" : "Sierra Lakes Golf Club",
+            "address" : "16600 Clubhouse Dr. Fontana, CA 92336",
+            "phone" : "909-350-2500",
+            "websiteurl" : "http://sierralakes.com/",
+            "image" : "images/sierralakes.png",
+            "membershiplevel" : null
         }
     ]
 }

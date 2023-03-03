@@ -730,7 +730,7 @@ form label.top input:required:valid{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content:space-around;
     width: auto;
 }
 .cards section > p {
@@ -805,4 +805,5 @@ form label.top input:required:valid{
     color: #999;
     font-style: italic;
     text-align: center;
+    display: none;
 }
