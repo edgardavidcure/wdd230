@@ -50,10 +50,50 @@ window.onload = function() {
 
 function drawWeather( d ) {
   var celcius = Math.round(parseFloat(d.main.temp)-273.15);
-	var fahrenheit = Math.round(((parseFloat(d.main.temp)-273.15)*1.8)+32); 
-	
+	var fahrenheit = Math.round(((parseFloat(d.main.temp)-273.15)*1.8)+32);
+  const description = d.weather[0].description.split(" ")
+  for (let i = 0; i < description.length; i++){
+    description[i] = description[i][0].toUpperCase() + description[i].substr(1);
+  }
+  const image = document.getElementById("weatherImg");
+  
+  const capitalizedDescription = description.join(" ")
+  document.getElementById("description").innerText = capitalizedDescription
+  switch (capitalizedDescription){
+    case "Clear Sky":
+      iconsrc = "images/clearsky-icon.png";
+      break;
+    case "Few Clouds":
+      iconsrc = "images/fewclouds-icon.png";
+      break;
+    case "Scattered Clouds":
+      iconsrc = "images/scatteredclouds-icon.png"
+      break;
+    case "Broken Clouds":
+      iconsrc = "images/brokenclouds-icon.png";
+      break;
+    case "Shower Rain":
+      iconsrc = "images/showerrain-icon.png";
+      break;
+    case "Rain":
+      iconsrc = "images/rain-icon.png";
+      break;
+    case "Thunderstorm":
+      iconsrc = "images/thunderstorm-icon.png";
+      break;
+    case "Snow":
+      iconsrc = "images/snow-icon.png";
+      break;
+    case "Mist":
+      iconsrc = "images/mist-icon.png";
+      break;
+    default:
+      iconsrc = `https://openweathermap.org/img/w/${d.weather[0].icon}.png`;
+  }
+  
+  image.setAttribute("src", iconsrc)
 	//document.getElementById('description').innerHTML = d.weather[0].description;
-	document.getElementById('temp').innerHTML = fahrenheit + '&deg;';
+	document.getElementById('temp').innerHTML = fahrenheit + '&deg; F';
 	document.getElementById('location').innerHTML = d.name;
   const windSpeed = d.wind.speed;
   const mph =  parseFloat(windSpeed * 2.236936).toFixed(1);
