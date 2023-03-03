@@ -399,6 +399,12 @@ form input.submitBtn{
     margin: 30px auto 50px;
     
 }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 0;
+    
+}
 .cards img {
     max-height: 150px;
     max-width: 300px;

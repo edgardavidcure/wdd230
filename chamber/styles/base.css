@@ -708,13 +708,13 @@ form label.top input:required:valid{
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     padding: 0;
     
 }
 .cards img {
-    max-height: 120px;
-    max-width: 240px;
+    max-height: 80px;
+    max-width: 180px;
     margin-bottom: 30px;
 }
 
@@ -741,6 +741,7 @@ form label.top input:required:valid{
 
 .cards a{
     padding: 0 20px 20px;
+    word-break: break-all;
 }
 
 .list{
