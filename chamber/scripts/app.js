@@ -92,6 +92,7 @@ function drawWeather( d ) {
   }
   
   image.setAttribute("src", iconsrc)
+  image.setAttribute("alt", capitalizedDescription)
 	//document.getElementById('description').innerHTML = d.weather[0].description;
 	document.getElementById('temp').innerHTML = fahrenheit + '&deg; F';
 	document.getElementById('location').innerHTML = d.name;
