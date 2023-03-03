@@ -523,7 +523,7 @@ footer img {
 }
 
 table {
-    font-size:1vh;
+    font-size:2vh;
     text-align: center;
     border-collapse: separate;
     background-color: transparent;
@@ -562,8 +562,8 @@ tbody tr:nth-child(even){
 }
 
 .cross {
-    color: red;
-    font-weight: bold;
+    color: #6a063f;
+    font-weight: bolder;
 }
 .check{
     color: green;
