@@ -277,6 +277,10 @@ nav {
     font-size: 1.2rem;
     
 }
+#weather a{
+    font-size: 11px;
+    color: #555;
+}
 
 #news h1{
     font-family: "unbounded";   
