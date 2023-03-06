@@ -6,7 +6,7 @@
             "phone" : "909-464-1727",
             "websiteurl" : "https://www.astorageplace.com/self-storage/ca/montclair/a-storage-place-of-montclair/",
             "image" : "images/astorageplace.png",
-            "membershiplevel" : null  
+            "membershiplevel" : "Silver"  
         },
         {
             "name" : "Ashley Furniture HomeStore",
@@ -14,7 +14,7 @@
             "phone" : "909-625-4420",
             "websiteurl" : "https://www.ashleyfurniture.com",
             "image" : "images/ashleyfurniture.svg",
-            "membershiplevel" : null  
+            "membershiplevel" : "Gold" 
         },
         {
             "name" : "Ben Bridge Jeweler, Inc.",
@@ -22,7 +22,7 @@
             "phone" : "909-625-4160",
             "websiteurl" : "https://www.benbridge.com",
             "image" : "images/benbridge.png",
-            "membershiplevel" : null  
+            "membershiplevel" : "Gold" 
         },
         {
             "name" : "Chaffey Federal Credit Union",
@@ -30,7 +30,7 @@
             "phone" : "909-986-4552",
             "websiteurl" : "http://www.chaffey.com",
             "image" : "images/chaffeycreditunion.png",
-            "membershiplevel" : null
+            "membershiplevel" : "Non-Profit"
         },
         {
             "name" : "City of Montclair",
@@ -38,7 +38,7 @@
             "phone" : "909-625-9401",
             "websiteurl" : "http://www.ci.montclair.ca.us/",
             "image" : "images/cityofmontclair.png",
-            "membershiplevel" : null
+            "membershiplevel" : "Non-Profit"
         },
         {
             "name" : "Fast & EZ Self Storage",
@@ -46,7 +46,7 @@
             "phone" : "909-985-9914",
             "websiteurl" : "http://www.fastandezselfstorage.com/",
             "image" : "images/fastandezstorage.png",
-            "membershiplevel" : null
+            "membershiplevel" : "Bronze"
         },
         {
             "name" : "Gold's Gym",
@@ -54,7 +54,7 @@
             "phone" : "909-399-9992",
             "websiteurl" : "https://www.goldsgym.com",
             "image" : "images/goldsgym.svg",
-            "membershiplevel" : null
+            "membershiplevel" : "Bronze"
         },
         {
             "name" : "John's Incredible Pizza",
@@ -62,7 +62,7 @@
             "phone" : "909-447-7777",
             "websiteurl" : "https://www.johnspizza.com",
             "image" : "images/johnspizza.png",
-            "membershiplevel" : null
+            "membershiplevel" : "Bronze"
         },
         {
             "name" : "Monte Vista Water District",
@@ -70,7 +70,7 @@
             "phone" : "909-267-2114",
             "websiteurl" : "https://www.mvwd.org",
             "image" : "images/montevistawater.png",
-            "membershiplevel" : null
+            "membershiplevel" : "Non-Profit"
         },
         {
             "name" : "Los Portales Grill & Seafood Mexican Restaurant",
@@ -78,7 +78,7 @@
             "phone" : "909-621-2013",
             "websiteurl" : "http://www.losportalesmexicangrill.com",
             "image" : "images/losportales.png",
-            "membershiplevel" : null
+            "membershiplevel" : "Silver"
         },
         {
             "name" : "Metro Autogroup- Honda & Acura",
@@ -86,7 +86,7 @@
             "phone" : "909-447-6027",
             "websiteurl" : "https://www.metrohonda.com",
             "image" : "images/metrohonda.jpeg",
-            "membershiplevel" : null
+            "membershiplevel" : "Gold"
         },
         {
             "name" : "Sierra Lakes Golf Club",
@@ -94,7 +94,7 @@
             "phone" : "909-350-2500",
             "websiteurl" : "http://sierralakes.com/",
             "image" : "images/sierralakes.png",
-            "membershiplevel" : null
+            "membershiplevel" : "Silver"
         }
     ]
 }

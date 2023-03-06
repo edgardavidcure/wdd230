@@ -423,7 +423,7 @@ form input.submitBtn{
 
 .list section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     
 }
 
@@ -439,6 +439,7 @@ form input.submitBtn{
 
 .list section a{
     margin: 8px;
+    word-break: break-all;
 }
 
 }

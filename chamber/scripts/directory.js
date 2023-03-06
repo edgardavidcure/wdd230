@@ -15,8 +15,8 @@ const displayCompanies = (companies) => {
         let logo = document.createElement("img");
         let address = document.createElement("p")
         let phone =  document.createElement("p");
+        let membership = document.createElement("p")
         let url =  document.createElement("a");
-
 
 
         h2.textContent = `${company.name}`;
@@ -27,12 +27,14 @@ const displayCompanies = (companies) => {
         logo.setAttribute("loading", "lazy");
         url.setAttribute("href", company.websiteurl)
         url.textContent = `${company.websiteurl}`
+        membership.textContent = `Member Type: ${company.membershiplevel}`
     
 
         card.appendChild(logo);
         card.appendChild(h2)
         card.appendChild(address);
         card.append(phone);
+        card.append(membership);
         card.appendChild(url);
 
         cards.appendChild(card);
