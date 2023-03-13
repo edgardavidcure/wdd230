@@ -818,3 +818,99 @@ form label.top input:required:valid{
 #directory-grid label p{
     display: none;
 }
+
+/*CONTACT PAGE*/
+/*????????????????????????????????????????????????????????*/
+
+
+#contact-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-TextBox { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    color: black;
+}
+
+#contact-TextBox h1{ 
+    font-family: "unbounded";
+}
+
+#contactForm input.contactSubmitBtn{
+    border: 4px solid white;
+    background-color: #6a063f;
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem 4rem;
+    margin: -30px 0 2rem;
+    width: auto;
+    max-width: 20rem;
+    font-size: 1.2rem;
+    font-family: "unbounded";
+}
+#contactForm input.contactSubmitBtn:hover{
+    color: black;
+    background-color: #93C0A4;
+    cursor: pointer;
+}
+
+
+#contactForm label.top textarea:required{
+    border-left: red solid 2px;
+}
+#contactForm label.top textarea:required:valid{
+    border-left: green solid 6px;
+}
+#contactForm label.top textarea{
+    font-size: 1rem;
+    border: solid 1px #999;
+    padding: .75rem;
+    min-width: 400px;
+    max-width: 400px;
+    color: #555;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+#contactPageInfo {
+    padding: 1rem 1rem 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    min-width: 430px;
+}
+
+#contactPageInfo div {
+    text-align: left;
+    margin-left: 2rem;
+}
+#contactPageInfo h2, #contactPageInfo h3{
+    font-family: "unbounded";
+    color: #023C40;
+}
+#contactPageInfo p{
+    font-family: "open sans";
+    margin: 5px;
+}
+
+#feedback {
+    font-family: "open sans";
+    font-size: 25px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}

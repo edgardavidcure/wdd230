@@ -30,8 +30,8 @@
             <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             
@@ -39,73 +39,49 @@
         <div class="date"></div>
         <div id="banner">
             <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
-            <p id="closeBanner">x</p>
+            <p id="closeBanner">&#10005;</p>
         </div>
     </header>
-    <main id="thankyou-grid">
-        <div id="join-TextBox">
-            <h1>Thank You For Joining The Chamber</h1>
-            <p>Enjoy your benefits while we enjoy working with you</p>
-            <p>Here is a summary of our membership benefits:</p>
+    <main id="contact-grid">
+        <div id="feedback"></div>
+        
+        <div id="contact-TextBox">
+            <h1>Contact The Chamber</h1>
         </div>
-        <div id="memberships">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Membership Benefits</th>
-                        <th>Non-Profit</th>
-                        <th>Bronze</th>
-                        <th>Silver</th>
-                        <th>Gold</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Marketing Training</th>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
+        <div id="contactForm">
+            <form method="get" action="getintouch.html">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label class="top" for="name">Name* <input type="text" name="name" id="name" required></label>
+                    <label class="top" for="email"> Email* <input type="email" name="email" id="email" required placeholder="business@email.com"></label>
+                    <label class="top" for="businessdescription"> Question/Concern* <textarea rows="5" cols="20" name="questionDescription" id="questionDescription" required></textarea></label>
 
-                    </tr>
-                    <tr>
-                        <th>Advertising</th>
-                        <td class="cross">&#10005;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-
-                    </tr>
-                    <tr>
-                        <th>Event Discounts</th>
-                        <td class="cross">&#10005;</td>
-                        <td class="cross">&#10005;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-
-                    </tr>
-                    <tr>
-                        <th>Ribbon Cuttings</th>
-                        <td class="cross">&#10005;</td>
-                        <td class="cross">&#10005;</td>
-                        <td class="cross">&#10005;</td>
-                        <td class="check">&check;</td>
-                    </tr>
-                    <tr>
-                        <th>Cost</th>
-                        <th>Free</th>
-                        <th>$100</th>
-                        <th>$200</th>
-                        <th>$400</th>
-                    </tr>
-                </tbody>
-        
-            </table>
+                </fieldset>
+                <input class="contactSubmitBtn" type="submit" value="Submit" name="contact">
+            </form>
         </div>
-        
-        
+        <div id="contactPageInfo">
+            <h2>Contact Us</h2>
+            <hr>
+            <div id="address">
+                <h3>Address</h3>
+                <p>Montclair Chamber of Commerce</p>
+                <p>8880 Benson Ave, Ste 110</p>
+                <p>Montclair, California 91763</p>
+            </div>
+            <div id="phone">
+                <h3>Phone</h3>
+                <p>(909) 985-5104</p>
+            </div>
+            <div id="email">
+                <h3>Email</h3>
+                <p>info@montclairchamber.com</p>
+            </div>
+
+        </div>
         
     </main>
+    
     <footer id="footer-grid">
         <img src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
         <div class="contact-info">
@@ -126,5 +102,7 @@
     </footer>
 <script src="scripts/app.js"></script>
 <script src="scripts/lastvisit.js"></script>
+<script src="scripts/contactValidation.js"></script>
+
 </body>
 </html>
