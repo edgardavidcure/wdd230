@@ -6,15 +6,13 @@ body {
     grid-template-rows:  auto 1fr auto;
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.1);
-    transform: none;
-    
 }
 
 
 header {
     background-color: #31081f;
     display: grid;
-    grid-template-columns: 250px 1fr auto;
+    grid-template-columns: 10em 4rem auto;
     
     
 }
@@ -25,7 +23,7 @@ header > a {
 #nav-logo {
     max-width: 150px;
     max-height: 120px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 0px 0px;
     justify-self: center;
     
     
@@ -36,11 +34,12 @@ header > a {
     align-self: center;
     justify-content: flex-end;
     display: flex;
+    flex-direction: column;
 }
 
 #social-media img{
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: 2em;
     margin: 10px 10px;
     background-color: white;
     border-radius: 20px;
@@ -170,7 +169,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: 20px 20px 0;
+    margin: 1em 1em 0;
     
     
 }
