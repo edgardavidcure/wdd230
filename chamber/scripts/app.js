@@ -91,7 +91,7 @@ function drawWeather( d ) {
       iconsrc = `https://openweathermap.org/img/w/${d.weather[0].icon}.png`;
   }
   
-  image.setAttribute("src", iconsrc)
+  image.setAttribute("src", iconsrc);
   image.setAttribute("alt", capitalizedDescription)
 	//document.getElementById('description').innerHTML = d.weather[0].description;
 	document.getElementById('temp').innerHTML = fahrenheit + '&deg; F';

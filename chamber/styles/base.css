@@ -53,6 +53,7 @@ nav button {
     border: none;
     font-size: 3rem;
     color: white;
+    cursor: pointer;
 }
 
 nav ul {
@@ -192,7 +193,7 @@ nav {
 }
 #hero-img {
     position: relative;
-    background: url(../images/montclair-hero-img.jpeg) no-repeat center;
+    background: url(../images/montclair-hero-img-min.jpeg) no-repeat center;
     background-size: 100% 100%;
     height: 400px;
     
@@ -213,7 +214,7 @@ nav {
     
 }
 
-#hero-img button {
+#hero-img a {
     background-color: #023C40;
     color: #ffffff;
     font-size: 1.1rem;
@@ -222,13 +223,14 @@ nav {
     border-radius: 12px;
     position: absolute;
     bottom: 25px;
-    right: 20px;
+    right: 80px;
     transition-duration: 0.3s;
     cursor: pointer;
+    text-decoration: none;
     
 }
 
-#hero-img button:hover {
+#hero-img a:hover {
     background-color: rgba(0, 0, 0, .8);
     color: #ffffff;
     font-weight: bolder;
@@ -312,41 +314,31 @@ nav {
     display: flex;
     flex-direction: column;
     border: none;
-    
 }
 
 #join {
     display: none;
 }
 #spotlight img{
-    width: 100px;
+    width: 10rem;
     height: auto;
     align-self: center;
 }
 
-#spotlight1 h1{
+#spotlight1 h1, #spotlight2 h1{
     text-align: center;
     font-family: "unbounded";
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #023C40 ;
     
 }
-#spotlight1 p{
+#spotlight1 p, #spotlight2 p{
     text-align: center;
     font-family: "open sans";
     font-size: 1rem;
+    padding: 0 20px;
 }
-#spotlight2 h1 {
-    text-align: center;
-    font-family: "unbounded";
-    font-size: 1.4rem;
-    color: #023C40;
-}
-#spotlight2 p{
-    text-align: center;
-    font-family: "open sans";
-    font-size: 1rem;
-}
+
 hr{
     color: #31081f ;
     width: 80%;

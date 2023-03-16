@@ -53,7 +53,7 @@
     #hero-img {
         grid-column: 1/4;
         grid-row: 1/2;
-        background: url(../images/montclair-hero-img.jpeg) no-repeat;
+        background: url(../images/montclair-hero-img-min.jpeg) no-repeat;
         background-size: 100% 100%;
         min-height: 400px;
         
@@ -65,7 +65,7 @@
         font-size: 3.5vw;
     }
 
-    #hero-img button {
+    #hero-img a {
         font-size: 2vw;
         padding: 16px 28px;
         bottom: 10%;
@@ -137,17 +137,17 @@
         margin: 20px 10px;
         width: 100%;
         height: auto;
-        
+        justify-content:space-evenly;        
     }
     #spotlight img{
-        width: 100px;
+        width: 200px;
         height: auto;
         align-self: center;
     }
     
     #spotlight h1 {
     
-        font-size: 2rem;
+        font-size: 1.3rem;
         overflow-wrap: break-word;
         
     }
@@ -176,7 +176,7 @@
         justify-content: center;
     }
 
-    #join button {
+    #join a {
         cursor: pointer;
         text-align: center;
         font-family: "unbounded";
@@ -185,10 +185,11 @@
         padding: 20px;
         border-radius: 20px;
         background-color: #023C40;
+        text-decoration: none;
         
     }
 
-    #join button:hover {
+    #join a:hover {
         background-color: #31081f;
         color: #ffffff;
     }
