@@ -23,11 +23,11 @@
                 <img src="images/instagram.png" alt="Logo of Instagram">
             </a>
             <a href="https://www.facebook.com">
-                <img src="images/facebook-min.png" alt="Logo of Facebook">
+                <img src="images/facebook-icon.png" alt="Logo of Facebook">
             </a>
         </div>
         <nav>
-            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+            <button id="hamburguerBtn" title="hamburguerButton"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
@@ -56,8 +56,9 @@
         </div>
         <div id="event">
             <h1>Ribbon Cutting</h1>
-            <h3>Tesla Service Center</h3>
-            <p>Join us for the grand opening of the new Tesla Service Center Thursday at 1:00pm. Elon Musk will assist to the event, where he will present to the community the newest technologies in the EV category. Come Join Us! <span>More info...</span></p>
+            <img id="newBusinessLogo" src="" alt="">
+            <h2 id="newBusinessName"></h2>
+            <p>Grand Opening! Sunday July 30 at noon, lunch and beverages will be provided.</p>
             
         </div>
 
@@ -74,9 +75,20 @@
 
         <div id="news">
             <h1>News Release</h1>
-            <p>Chick-Fil-A opening event will host veterans who will receive free meals for 30 days as part as their new program called "Thank the veterans".</p>
+            <div class="newsHeadline">
+                <p><a href="https://www.cityofmontclair.org/documents/city-managers-monthly-report-february-2023/">City Manager’s Monthly Report – February 2023</a></p>
+                <p>Posted March 2023</p>
+            </div>
             <hr>
-            <p>The city of Montclair is hiring for accounting positions. Those interested in applying can go to the city of montclair website and search for job openings.</p>
+            <div class="newsHeadline">
+                <p><a href="https://storage.googleapis.com/proudcity/montclairca/uploads/2023/01/NOD-Mission-Ramona-Business-Park-Project.pdf">Notice of Determination – Mission Blvd. & Ramona Ave. Business Park Project</a></p>
+                <p>Posted February 2023</p>
+            </div>
+            <hr>
+            <div class="newsHeadline">
+                <p><a href="https://www.cityofmontclair.org/documents/local-appointment-list/">Scheduled Vacancies on Appointed Boards & Commissions</a></p>
+                <p>Posted January 2023</p>
+            </div>
         </div>
         <div id="spotlight">
             <div id="spotlight1">
@@ -105,8 +117,12 @@
             <section class="button">
                 <a href="join.html">Join Us!</a>
             </section>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-            <p>We offer different memberships that accomodate to all types of budgets and provide valuable benefits to help your business grow in the city of Montclair.</p>
+            <p>Join the chamber of commerce today and enjoy the benefits of:</p>
+            <ul>
+                <li>Networking</li>
+                <li>Marketing and Advertising</li>
+                <li>Exclusive Events</li>
+            </ul>
         </div>
 
 
@@ -114,21 +130,25 @@
     <footer id="footer-grid">
         <img src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
         <div class="contact-info">
-            <h5>Montlcair Chamber of Commerce</h5>
-            <h6>8880 Benson Ave, Ste 110</h6>
-            <h6>Montlcair, CA 91763</h6>
+            <h1>Montlcair Chamber of Commerce</h1>
+            <h2>8880 Benson Ave, Ste 110</h2>
+            <h2>Montlcair, CA 91763</h2>
         </div>
         <div class="contact-info">
-            <h6>info@montclairchamber.org</h6>
-            <h6>+1(909) 985-5104</h6>
-            <a href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"><h6>Montclair Map</h6></a>
+            <h2>info@montclairchamber.org</h2>
+            <h2>+1(909) 985-5104</h2>
+            <a href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"><h2>Montclair Map</h6></a>
         </div>
         <div class="pageInfo">
             <p id="webInfo"></p>
+            <p id="LastVisit"></p>
+
         </div>
         
     </footer>
 <script src="scripts/app.js"></script>
 <script src="scripts/spotlight.js"></script>
+<script src="scripts/lastVisit.js"></script>
+<script src="scripts/weather.js"></script>
 </body>
 </html>

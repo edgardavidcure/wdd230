@@ -241,7 +241,7 @@ nav {
     text-align: center;
 }
 
-#event h1, #event h3 {
+#event h1, #event h2 {
     font-family: "unbounded";
     color: #023C40;
 }
@@ -249,8 +249,12 @@ nav {
 #event h1 {
     font-size: 1.4rem;
 }
-#event h3 {
-    font-size: 1.2rem;
+#event img{
+    height: auto;
+    width: 9rem;
+}
+#event h2 {
+    font-size: 1rem;
 }
 #event p {
     font-family: "open sans";
@@ -291,13 +295,31 @@ nav {
     font-size: 1.4rem;
     color: #023C40 ; 
     text-align: center;
+    margin-bottom: 40px;
 }
 #news p{
     font-family: "Open sans";   
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: left;
+    padding-left: 30px;
+    padding-top: 0;
 }
 
+#news a{
+    font-family: "Open sans";   
+    font-size: 1.2rem;
+    color: #023C40;
+}
+.newsHeadline:nth-child(2){
+    display: none;
+}
+.newsHeadline p:nth-child(2){
+    margin-top: 0;
+    margin-left: 10px;
+}
+.newsHeadline p:nth-child(1){
+    margin-bottom: 0;
+}
 
 
 #spotlight {
@@ -338,6 +360,7 @@ nav {
     font-family: "open sans";
     font-size: 1rem;
     padding: 0 20px;
+    word-break: break-all;
 }
 
 hr{
@@ -363,13 +386,13 @@ footer {
 
 }
 
-footer h5 {
+footer h1 {
     color: white;
     font-family: "Unbounded", sans-serif;
     text-decoration: none;
     font-size: .9em;
 }
-footer h6 , footer p{
+footer h2 , footer p{
     color: white;
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
