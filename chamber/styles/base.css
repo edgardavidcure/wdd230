@@ -483,10 +483,15 @@ footer img {
 
 /*JOIN PAGE*/
 /*????????????????????????????????????????????????????????*/
+body{
+    grid-template-columns: 100%;
+}
+
 #join-grid{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 #join-TextBox { 
@@ -500,19 +505,19 @@ footer img {
 
 #join-TextBox h1{ 
     font-family: "unbounded";
+    font-size: 1.5rem;
 }
 
 #join-TextBox p{
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 0 20px;
     font-family: "open sans", sans-serif;
 }
 
 #memberships {
-    width: 470px;
     min-width: fit-content;
     max-width: fit-content;
-    padding: 1% 0;
+    padding:  0;
     background-color: white;
     border-radius: 20px;
     margin: 40px 0;
@@ -520,14 +525,14 @@ footer img {
 }
 
 table {
-    font-size:2vh;
+    font-size:1vh;
     text-align: center;
     border-collapse: separate;
     background-color: transparent;
 }
 
 th{
-    padding: 2% 0;
+    padding: 5px 0;
     font-family: "unbounded";
     border-radius: 20px;
 
@@ -539,7 +544,7 @@ thead tr{
      
 }
 thead tr th{
-    padding: 20px 15px;
+    padding: 20px 10px;
     
 }
 table tbody tr:last-child{
@@ -584,9 +589,9 @@ form fieldset{
     margin: 2rem 0;
     border: 0px;
     border-radius: 10px;
-    padding: 1rem 2%;
+    padding: 1rem;
     margin: 0 0 40px 0;
-    width: 430px;
+    width: fit-content;
     background-color: white;
 }
 
@@ -595,8 +600,8 @@ form fieldset{
 form legend{
     color: white;
     margin: 0 auto;
-    padding: 1rem;
-    font-size: 1.3rem;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
     font-family: "unbounded";
     background-color: #023C40;
     border-radius: 10px;
@@ -610,7 +615,7 @@ form label.top{
     flex-direction: column;
     padding-top: 1rem;
     color: #31081f;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     width:100%;
     font-family: "open sans";
     
@@ -622,9 +627,9 @@ form label.top input{
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
-    padding: .75rem;
+    padding: .5rem;
     color: #555;
-    width: 400px;
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.06);
     border-left: 2px solid black;
 
@@ -633,7 +638,7 @@ form label.sbs, form div{
     display: block;
     padding-top: 2rem;
     color: #31081f;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     width:100%;
     font-family: "open sans"
 }
@@ -642,11 +647,10 @@ form input.submitBtn{
     background-color: #6a063f;
     color: white;
     border-radius: 2rem;
-    padding: 1.5rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 100%;
+    padding: 1rem;
+    width: 200px;
     max-width: 20rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "unbounded";
 }
 form input.submitBtn:hover{
