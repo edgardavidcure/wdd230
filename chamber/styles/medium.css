@@ -1,464 +1,407 @@
-@media only screen and (min-width: 36em){
-    
-    
-    #nav-logo {
-        max-width: 170px;
-        max-height: 130px;
-        
-    }
-    
+@media only screen and (min-width: 36em) {
+  #nav-logo {
+    max-width: 170px;
+    max-height: 130px;
+  }
 
-    nav ul li a {
-        display: block;
-        padding: .8rem 2vw;
-        text-decoration: none;
-        color: white;
-        border-top: 1px solid rgba(0, 0, 0, .5);
-    }
+  nav ul li a {
+    display: block;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+  }
 
-    #social-media {
-        justify-content: flex-end;
-        
-    }
-    
-    #social-media img{
-        width: 50px;
-        height: 50px;
-        margin: 10px 30px;
-        border-radius: 40px;
+  #social-media {
+    justify-content: flex-end;
+  }
 
-    }
+  #social-media img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 30px;
+    border-radius: 40px;
+  }
 
-    .date {
-        
-        margin-top: 15px;
-    }
-    .date p {
-        margin: 7px 0;
-        font-size: .9em;
-    }
+  .date {
+    margin-top: 15px;
+  }
+  .date p {
+    margin: 7px 0;
+    font-size: 0.9em;
+  }
 
-    #home-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 300px auto;
-        height: auto;
-        gap: 20px;
-        margin: 20px 20px 0;
-    }
-   
-    #home-grid p{
-        font-size: 1.1em;
+  #home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 300px auto;
+    height: auto;
+    gap: 20px;
+    margin: 20px 20px 0;
+  }
 
-    }
-    #hero-img {
-        grid-column: 1/4;
-        grid-row: 1/2;
-        background: url(../images/montclair-hero-img-min.jpeg) no-repeat;
-        background-size: 100% 100%;
-        min-height: 400px;
-        
-    }
+  #home-grid p {
+    font-size: 1.1em;
+  }
+  #hero-img {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background: url(../images/montclair-hero-img-min.jpeg) no-repeat;
+    background-size: 100% 100%;
+    min-height: 400px;
+  }
 
-    #hero-img h1{
-        top: 10px;
-        left: 50px;
-        font-size: 3.5vw;
-    }
+  #hero-img h1 {
+    top: 10px;
+    left: 50px;
+    font-size: 3.5vw;
+  }
 
-    #hero-img a {
-        font-size: 2vw;
-        padding: 16px 28px;
-        bottom: 10%;
-        right: 33%;
-    }
+  #hero-img a {
+    font-size: 2vw;
+    padding: 16px 28px;
+    bottom: 10%;
+    right: 33%;
+  }
 
-    #home-grid div {
-        height: auto;
-        width: auto;
-        background-color: #ffffff;
-        border-radius: 10px;
-        
-        
-    }
-    #event img{
-        height: auto;
-        width: 12rem;
-    }
-    
-    
-    #event h1 {
-        font-size: 2rem;
-    }
-    #event h2 {
-        font-size: 1.5rem;
-    }
-    #event p {
-        font-size: 1.1rem;
-    }
-    
-    #weather img{
-        width: 100px;
-    }
-    #weather h1{
-        font-size: 2rem;
-        
-    }
-    #weather h2{
-        font-size: 2rem;
-        
-    }
-    
-    #news h1{  
-        font-size: 2rem;
-    }
-    #news p{
-        font-size: 1.1rem;
-    }
-    
-    
-    
-    #spotlight {
-        height: auto;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: auto;
-        grid-column: 1/4;
-        grid-row: 3;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    
-    
-    #spotlight div {
-        margin: 20px;
-        height: auto;
-        min-width: 200px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        margin: 20px 10px;
-        width: 100%;
-        height: auto;
-        justify-content:space-evenly;        
-    }
-    #spotlight img{
-        width: 200px;
-        height: auto;
-        align-self: center;
-    }
-    
-    #spotlight h1 {
-    
-        font-size: 1.3rem;
-        overflow-wrap: break-word;
-        
-    }
-    #spotlight p{
-        overflow-wrap: break-word;
-        
-    }
+  #home-grid div {
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  #event img {
+    height: auto;
+    width: 12rem;
+  }
 
-    #news {
-        grid-column: 1/4;
-        grid-row: 2;
-    }
-    .newsHeadline:nth-child(2){
-        display: none;
-    }
-    
+  #event h1 {
+    font-size: 2rem;
+  }
+  #event h2 {
+    font-size: 1.5rem;
+  }
+  #event p {
+    font-size: 1.1rem;
+  }
 
-    #join {
-        grid-column: 1/4;
-        grid-row: 4;
-        display: block;
-        justify-items: center;
-    }
+  #weather img {
+    width: 100px;
+  }
+  #weather h1 {
+    font-size: 2rem;
+  }
+  #weather h2 {
+    font-size: 2rem;
+  }
 
-    #join .button {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-    }
+  #news h1 {
+    font-size: 2rem;
+  }
+  #news p {
+    font-size: 1.1rem;
+  }
 
-    #join a {
-        cursor: pointer;
-        text-align: center;
-        font-family: "unbounded";
-        font-size: 2rem;
-        color: #ffffff;
-        padding: 20px;
-        border-radius: 20px;
-        background-color: #023C40;
-        text-decoration: none;
-        
-    }
+  #spotlight {
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    grid-column: 1/4;
+    grid-row: 3;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-    #join a:hover {
-        background-color: #31081f;
-        color: #ffffff;
-    }
+  #spotlight div {
+    margin: 20px;
+    height: auto;
+    min-width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+  }
+  #spotlight img {
+    width: 200px;
+    height: auto;
+    align-self: center;
+  }
 
-    #join p {
-        text-align: left;
-        font-family: "open sans";
-        font-size: 1.2rem;
-    }
-    #join ul{
-        font-family: "open sans";
-        line-height: 40px;
-        font-size: 1.1rem;
-        text-align: left;
-    }
+  #spotlight h1 {
+    font-size: 1.3rem;
+    overflow-wrap: break-word;
+  }
+  #spotlight p {
+    overflow-wrap: break-word;
+  }
 
-    #event {
-        grid-column: 1/3;
-        grid-row: 5;
-    }
-    #spotlight3 {
-        display: none;
-    }
-    
-    footer {
-        justify-content: space-around;
-        flex-direction: row;
-    
-    }
-    
-     footer a, footer h5 {
-        font-size: 1.2em;
-    }
-    footer h6 , footer p{
-        font-size: .9em;
-    }
-    
-    footer img {
-        width: 170px;
-        height: auto;
-        margin-left: 0px;
-        justify-self: center;
-    }
-    #footer-grid {
-        display: grid;
-        grid-template-columns: 40% 30% 30%;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
-    .contact-info {
-        
-        margin: 0;
-        
-    }
-    hr{
-        display: none;
-    }
-   
+  #news {
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+  .newsHeadline:nth-child(2) {
+    display: none;
+  }
 
-/*DISCOVER PAGE*/
-/*????????????????????????????????????????????????????????*/
-#discover-grid img:hover {
+  #join {
+    grid-column: 1/4;
+    grid-row: 4;
+    display: block;
+    justify-items: center;
+  }
+
+  #join .button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #join a {
+    cursor: pointer;
+    text-align: center;
+    font-family: "unbounded";
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #023c40;
+    text-decoration: none;
+  }
+
+  #join a:hover {
+    background-color: #31081f;
+    color: #ffffff;
+  }
+
+  #join p {
+    text-align: left;
+    font-family: "open sans";
+    font-size: 1.2rem;
+  }
+  #join ul {
+    font-family: "open sans";
+    line-height: 40px;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  #event {
+    grid-column: 1/3;
+    grid-row: 5;
+  }
+  #spotlight3 {
+    display: none;
+  }
+
+  footer {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  footer a,
+  footer h5 {
+    font-size: 1.2em;
+  }
+  footer h6,
+  footer p {
+    font-size: 0.9em;
+  }
+
+  footer img {
+    width: 170px;
+    height: auto;
+    margin-left: 0px;
+    justify-self: center;
+  }
+  #footer-grid {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info {
+    margin: 0;
+  }
+  hr {
+    display: none;
+  }
+
+  /*DISCOVER PAGE*/
+  /*????????????????????????????????????????????????????????*/
+  #discover-grid img:hover {
     box-shadow: 0 0 20px #333;
-}
-#discover-grid img {
+  }
+  #discover-grid img {
     width: 700px;
     height: auto;
-    
-}
+  }
 
-#discover-grid p{
+  #discover-grid p {
     font-family: "open sans", sans-serif;
+  }
 
-}
-
-#discover-grid h1, #discover-grid h2 {
+  #discover-grid h1,
+  #discover-grid h2 {
     font-family: "unbounded", sans-serif;
-}
+  }
 
-#discover-hero{
+  #discover-hero {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     padding: 20px 0px 40px;
-}
+  }
 
-#discover-hero img{
+  #discover-hero img {
     width: 700px;
     height: auto;
     border-radius: 20px;
-}
-#hero-box { 
+  }
+  #hero-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
-}
+  }
 
-#hero-box p{
+  #hero-box p {
     font-size: 1.2em;
-}
-.discover-content {
+  }
+  .discover-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 80px 0px;
     padding: 0px 20px;
-}
+  }
 
+  /*JOIN PAGE*/
+  /*????????????????????????????????????????????????????????*/
 
-
-
-
-
-/*JOIN PAGE*/
-/*????????????????????????????????????????????????????????*/
-
-
-#join-TextBox h1{ 
+  #join-TextBox h1 {
     font-size: 2.5em;
-}
+  }
 
-#join-TextBox p{
+  #join-TextBox p {
     font-size: 1.4em;
-}
+  }
 
-#memberships {
+  #memberships {
     width: 700px;
     padding: 2% 1%;
-}
+  }
 
-table {
-    font-size:1.9vw;
-    
-}
+  table {
+    font-size: 1.9vw;
+  }
 
-th{
+  th {
     padding: 3% 1%;
+  }
 
-}
-
-thead tr th{
+  thead tr th {
     padding: 20px 20px;
-    
-}
+  }
 
-td{
+  td {
     font-size: 1.5em;
-}
+  }
 
-form fieldset{
+  form fieldset {
     padding: 1.5rem 5%;
     margin: 0 0 40px 0;
     width: 500px;
-}
+  }
 
-
-
-form legend{
+  form legend {
     color: white;
     margin: 0 auto;
     padding: 2rem;
     font-size: 1.5rem;
-}
+  }
 
-
-form label.top{
+  form label.top {
     padding-top: 1.5rem;
     font-size: 1.2rem;
-    
-}
+  }
 
-
-form label.top input{
+  form label.top input {
     font-size: 1.2rem;
-    padding: .75rem;
+    padding: 0.75rem;
     width: 460px;
-
-}
-form label.sbs, form div{
+  }
+  form label.sbs,
+  form div {
     padding-top: 2.5rem;
     font-size: 1.3rem;
-}
-form input.submitBtn{
+  }
+  form input.submitBtn {
     padding: 2rem;
     font-size: 2rem;
-}
+  }
 
-
-
-
-
-
-
-/*DISCOVERY PAGE*/
-/*????????????????????????????????????????????????????????*/
-#directory-grid h1{
+  /*DIRECTORY PAGE*/
+  /*????????????????????????????????????????????????????????*/
+  #directory-grid h1 {
     font-size: 2.2rem;
     margin: 30px auto 50px;
-    
-}
-.cards {
+  }
+  .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding: 0;
-    
-}
-.cards img {
+  }
+  .cards img {
     max-height: 150px;
     max-width: 300px;
-}
-  
-.cards section > p {
+  }
+
+  .cards section > p {
     font-size: 1.1rem;
-}
+  }
 
-.cards a{
+  .cards a {
     font-size: 1.1rem;
-}
+  }
 
-
-
-.list section {
+  .list section {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    
-}
+  }
 
-.list h2 {
+  .list h2 {
     font-size: 1.1rem;
-}
+  }
 
-.list section p{
+  .list section p {
     font-size: 1.1rem;
     margin: 6px;
+  }
 
-}
-
-.list section a{
+  .list section a {
     margin: 8px;
     word-break: break-all;
-}
-/*CONTACT PAGE*/
-/*????????????????????????????????????????????????????????*/
+  }
+  /*CONTACT PAGE*/
+  /*????????????????????????????????????????????????????????*/
 
-
-#contactForm label.top textarea{
+  #contactForm label.top textarea {
     font-size: 1.2rem;
     min-width: 460px;
     max-width: 460px;
-}
+  }
 
-
-#contactPageInfo {
+  #contactPageInfo {
     width: 540px;
+  }
 }
-
-}
-
-

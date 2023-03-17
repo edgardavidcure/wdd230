@@ -1,154 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="description"
-    content="The Home page for the chamber of commerce intends to provide users with valuable information about Montclair businesses and show important information like weather, news, events, etc.">
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="The Home page for the chamber of commerce intends to provide users with valuable information about Montclair businesses and show important information like weather, news, events, etc."
+    />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
     <title>Home - Montlcair Chamber of Commerce</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="index.html">
-            <img id="nav-logo" src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
+      <a href="index.html">
+        <img
+          id="nav-logo"
+          src="images/MontlcairChamberofCommerce.webp"
+          alt="Logo of Montlcair Chamber of Commerce"
+        />
+      </a>
+      <div id="social-media">
+        <a href="https://www.instagram.com">
+          <img src="images/instagram.png" alt="Logo of Instagram" />
         </a>
-        <div id="social-media">
-            <a href="https://www.instagram.com">
-                <img src="images/instagram.png" alt="Logo of Instagram">
-            </a>
-            <a href="https://www.facebook.com">
-                <img src="images/facebook-icon.png" alt="Logo of Facebook">
-            </a>
-        </div>
-        <nav>
-            <button id="hamburguerBtn" title="hamburguerButton"><span>&#9776;</span><span>X</span></button>
-            <ul id="primaryNav">
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            
-        </nav>
-        <div class="date"></div>
-        <div id="banner">
-            <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
-            <p id="closeBanner">&#10005;</p>
-        </div>
+        <a href="https://www.facebook.com">
+          <img src="images/facebook-icon.png" alt="Logo of Facebook" />
+        </a>
+      </div>
+      <nav>
+        <button id="hamburguerBtn" title="hamburguerButton">
+          <span>&#9776;</span><span>X</span>
+        </button>
+        <ul id="primaryNav">
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="date"></div>
+      <div id="banner">
+        <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
+        <p id="closeBanner">&#10005;</p>
+      </div>
     </header>
     <main id="home-grid">
-        <div id="hero-img">
-            <!--<img src="images/montclair-hero-img.jpeg" alt="Image of The Village at Montclair">-->
-            <!--<picture>
+      <div id="hero-img">
+        <!--<img src="images/montclair-hero-img.jpeg" alt="Image of The Village at Montclair">-->
+        <!--<picture>
                     <source srcset="images/test-img700.png" media="(min-width: 576px) and (max-width: 1119px)">
                         <source srcset="images/test-img1000.png" media="(min-width: 1120px)">
 
                 <img src="images/test-img400.png" alt="test image">
             </picture>-->
-            <h1>Welcome To Montclair</h1>
-            <a href="join.html">Join The Chamber</a>
-        </div>
-        <div id="event">
-            <h1>Ribbon Cutting</h1>
-            <img id="newBusinessLogo" src="images/Placeholder-min.png" alt="placeholder" loading="lazy">
-            <h2 id="newBusinessName"></h2>
-            <p>Grand Opening! Sunday July 30 at noon, lunch and beverages will be provided.</p>
-            
-        </div>
+        <h1>Welcome To Montclair</h1>
+        <a href="join.html">Join The Chamber</a>
+      </div>
+      <div id="event">
+        <h1>Ribbon Cutting</h1>
+        <img
+          id="newBusinessLogo"
+          src="images/Placeholder-min.png"
+          alt="placeholder"
+          loading="lazy"
+        />
+        <h2 id="newBusinessName"></h2>
+        <p>
+          Grand Opening! Sunday July 30 at noon, lunch and beverages will be
+          provided.
+        </p>
+      </div>
 
-        <div id="weather">
-            <h1>Weather</h1>
-            <img id="weatherImg" src="images/fewclouds-icon.png" alt="logo of weather">
-            <h1 id="temp"></h1>
-            <h2 id="location"></h2>
-            <h3 id="description"></h3>
-            <h3 id="windSpeed"></h3>
-            <h3 id="windChill"></h3>
-            <a href="https://openweathermap.org">@OpenWeatherMap</a>
-        </div>
+      <div id="weather">
+        <h1>Weather</h1>
+        <img
+          id="weatherImg"
+          src="images/fewclouds-icon.png"
+          alt="logo of weather"
+        />
+        <h1 id="temp"></h1>
+        <h2 id="location"></h2>
+        <h3 id="description"></h3>
+        <h3 id="windSpeed"></h3>
+        <h3 id="windChill"></h3>
+        <a href="https://openweathermap.org">@OpenWeatherMap</a>
+      </div>
 
-        <div id="news">
-            <h1>News Release</h1>
-            <div class="newsHeadline">
-                <p><a href="https://www.cityofmontclair.org/documents/city-managers-monthly-report-february-2023/">City Manager’s Monthly Report – February 2023</a></p>
-                <p>Posted March 2023</p>
-            </div>
-            <hr>
-            <div class="newsHeadline">
-                <p><a href="https://storage.googleapis.com/proudcity/montclairca/uploads/2023/01/NOD-Mission-Ramona-Business-Park-Project.pdf">Notice of Determination – Mission Blvd. & Ramona Ave. Business Park Project</a></p>
-                <p>Posted February 2023</p>
-            </div>
-            <hr>
-            <div class="newsHeadline">
-                <p><a href="https://www.cityofmontclair.org/documents/local-appointment-list/">Scheduled Vacancies on Appointed Boards & Commissions</a></p>
-                <p>Posted January 2023</p>
-            </div>
+      <div id="news">
+        <h1>News Release</h1>
+        <div class="newsHeadline">
+          <p>
+            <a
+              href="https://www.cityofmontclair.org/documents/city-managers-monthly-report-february-2023/"
+              >City Manager’s Monthly Report – February 2023</a
+            >
+          </p>
+          <p>Posted March 2023</p>
         </div>
-        <div id="spotlight">
-            <div id="spotlight1">
-                <img id="businessLogo1" src="images/webdev-icon.png" alt="Website Icon">
-                <h1 id="businessTitle1">Web Devs</h1>
-                <p id="businessPhone1">+19099999999</p>
-                <p id="businessWebsite1">webdevs.com</p>
-            </div>
-            <hr>
-            <div id="spotlight2">
-                <img id="businessLogo2" src="images/driving-icon.png" alt="Driving Icon">
-                <h1 id="businessTitle2">Good Drivers</h1>
-                <p id="businessPhone2">+19099999999</p>
-                <p id="businessWebsite2">gooddrivers.com</p>
-                
-            </div>
-            <hr>
-            <div id="spotlight3">
-                <img id="businessLogo3" src="images/piano-icon.png" alt="Piano Icon">
-                <h1 id="businessTitle3">Piano Guide</h1>
-                <p id="businessPhone3">+19099999999</p>
-                <p id="businessWebsite3">pianoguide.com</p>
-            </div>
+        <hr />
+        <div class="newsHeadline">
+          <p>
+            <a
+              href="https://storage.googleapis.com/proudcity/montclairca/uploads/2023/01/NOD-Mission-Ramona-Business-Park-Project.pdf"
+              >Notice of Determination – Mission Blvd. & Ramona Ave. Business
+              Park Project</a
+            >
+          </p>
+          <p>Posted February 2023</p>
         </div>
-        <div id="join">
-            <section class="button">
-                <a href="join.html">Join Us!</a>
-            </section>
-            <p>Join the chamber of commerce today and enjoy the benefits of:</p>
-            <ul>
-                <li>Networking</li>
-                <li>Marketing and Advertising</li>
-                <li>Exclusive Events</li>
-            </ul>
+        <hr />
+        <div class="newsHeadline">
+          <p>
+            <a
+              href="https://www.cityofmontclair.org/documents/local-appointment-list/"
+              >Scheduled Vacancies on Appointed Boards & Commissions</a
+            >
+          </p>
+          <p>Posted January 2023</p>
         </div>
-
-
+      </div>
+      <div id="spotlight">
+        <div id="spotlight1">
+          <img
+            id="businessLogo1"
+            src="images/webdev-icon.png"
+            alt="Website Icon"
+          />
+          <h1 id="businessTitle1">Web Devs</h1>
+          <p id="businessPhone1">+19099999999</p>
+          <p id="businessWebsite1">webdevs.com</p>
+        </div>
+        <hr />
+        <div id="spotlight2">
+          <img
+            id="businessLogo2"
+            src="images/driving-icon.png"
+            alt="Driving Icon"
+          />
+          <h1 id="businessTitle2">Good Drivers</h1>
+          <p id="businessPhone2">+19099999999</p>
+          <p id="businessWebsite2">gooddrivers.com</p>
+        </div>
+        <hr />
+        <div id="spotlight3">
+          <img
+            id="businessLogo3"
+            src="images/piano-icon.png"
+            alt="Piano Icon"
+          />
+          <h1 id="businessTitle3">Piano Guide</h1>
+          <p id="businessPhone3">+19099999999</p>
+          <p id="businessWebsite3">pianoguide.com</p>
+        </div>
+      </div>
+      <div id="join">
+        <section class="button">
+          <a href="join.html">Join Us!</a>
+        </section>
+        <p>Join the chamber of commerce today and enjoy the benefits of:</p>
+        <ul>
+          <li>Networking</li>
+          <li>Marketing and Advertising</li>
+          <li>Exclusive Events</li>
+        </ul>
+      </div>
     </main>
     <footer id="footer-grid">
-        <img src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
-        <div class="contact-info">
-            <h1>Montlcair Chamber of Commerce</h1>
-            <h2>8880 Benson Ave, Ste 110</h2>
-            <h2>Montlcair, CA 91763</h2>
-        </div>
-        <div class="contact-info">
-            <h2>info@montclairchamber.org</h2>
-            <h2>+1(909) 985-5104</h2>
-            <a href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"><h2>Montclair Map</h2></a>
-        </div>
-        <div class="pageInfo">
-            <p id="webInfo"></p>
-            <p id="LastVisit"></p>
-
-        </div>
-        
+      <img
+        src="images/MontlcairChamberofCommerce.webp"
+        alt="Logo of Montlcair Chamber of Commerce"
+      />
+      <div class="contact-info">
+        <h1>Montlcair Chamber of Commerce</h1>
+        <h2>8880 Benson Ave, Ste 110</h2>
+        <h2>Montlcair, CA 91763</h2>
+      </div>
+      <div class="contact-info">
+        <h2>info@montclairchamber.org</h2>
+        <h2>+1(909) 985-5104</h2>
+        <a
+          href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"
+          ><h2>Montclair Map</h2></a
+        >
+      </div>
+      <div class="pageInfo">
+        <p id="webInfo"></p>
+        <p id="LastVisit"></p>
+      </div>
     </footer>
-<script src="scripts/app.js"></script>
-<script src="scripts/spotlight.js"></script>
-<script src="scripts/lastVisit.js"></script>
-<script src="scripts/weather.js"></script>
-</body>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/lastVisit.js"></script>
+    <script src="scripts/weather.js"></script>
+  </body>
 </html>

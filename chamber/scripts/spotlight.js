@@ -25,9 +25,9 @@ const spotlightElements = [
 const ribbonCuttingElements = [
   {
     title: document.getElementById("newBusinessName"),
-    logo: document.getElementById("newBusinessLogo")
-  }
-]
+    logo: document.getElementById("newBusinessLogo"),
+  },
+];
 
 let displayedSpotlights = new Set();
 
@@ -63,8 +63,12 @@ function displaySpotlights(companies) {
   });
 }
 
-function displayRibbonCutting(companies){
-  ribbonCutting = companies.filter((company => company.membershiplevel === "Bronze" || company.membershiplevel === "Non-Profit"));
+function displayRibbonCutting(companies) {
+  ribbonCutting = companies.filter(
+    (company) =>
+      company.membershiplevel === "Bronze" ||
+      company.membershiplevel === "Non-Profit"
+  );
   const business = ribbonCutting[getRandomInt(ribbonCutting.length)];
   ribbonCuttingElements[0].title.textContent = business.name;
   ribbonCuttingElements[0].logo.src = business.image;

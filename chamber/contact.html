@@ -1,109 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-    content="The Contact page for the chamber of commerce intends to provide users with valuable information about Montclair chamber of commerce and show important information like phone number, address, email, etc.">
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Contact page for the chamber of commerce intends to provide users with valuable information about Montclair chamber of commerce and show important information like phone number, address, email, etc."
+    />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
     <title>Discover - Montlcair Chamber of Commerce</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="index.html">
-            <img id="nav-logo" src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
+      <a href="index.html">
+        <img
+          id="nav-logo"
+          src="images/MontlcairChamberofCommerce.webp"
+          alt="Logo of Montlcair Chamber of Commerce"
+        />
+      </a>
+      <div id="social-media">
+        <a href="https://www.instagram.com">
+          <img src="images/instagram.png" alt="Logo of Instagram" />
         </a>
-        <div id="social-media">
-            <a href="https://www.instagram.com">
-                <img src="images/instagram.png" alt="Logo of Instagram">
-            </a>
-            <a href="https://www.facebook.com">
-                <img src="images/facebook-icon.png" alt="Logo of Facebook">
-            </a>
-        </div>
-        <nav>
-            <button id="hamburguerBtn" title="hamburguerButton"><span>&#9776;</span><span>X</span></button>
-            <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-            </ul>
-            
-        </nav>
-        <div class="date"></div>
-        <div id="banner">
-            <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
-            <p id="closeBanner">&#10005;</p>
-        </div>
+        <a href="https://www.facebook.com">
+          <img src="images/facebook-icon.png" alt="Logo of Facebook" />
+        </a>
+      </div>
+      <nav>
+        <button id="hamburguerBtn" title="hamburguerButton">
+          <span>&#9776;</span><span>X</span>
+        </button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </nav>
+      <div class="date"></div>
+      <div id="banner">
+        <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
+        <p id="closeBanner">&#10005;</p>
+      </div>
     </header>
     <main id="contact-grid">
-        <div id="feedback"></div>
-        
-        <div id="contact-TextBox">
-            <h1>Contact The Chamber</h1>
-        </div>
-        <div id="contactForm">
-            <form method="get" action="getintouch.html">
-                <fieldset>
-                    <legend>Contact Form</legend>
-                    <label class="top" for="name">Name* <input type="text" name="name" id="name" required></label>
-                    <label class="top" for="email"> Email* <input type="email" name="email" id="email" required placeholder="business@email.com"></label>
-                    <label class="top" for="questionDescription"> Question/Concern* <textarea rows="5" cols="20" name="questionDescription" id="questionDescription" required></textarea></label>
+      <div id="feedback"></div>
 
-                </fieldset>
-                <input class="contactSubmitBtn" type="submit" value="Submit" name="contact">
-            </form>
+      <div id="contact-TextBox">
+        <h1>Contact The Chamber</h1>
+      </div>
+      <div id="contactForm">
+        <form method="get" action="getintouch.html">
+          <fieldset>
+            <legend>Contact Form</legend>
+            <label class="top" for="name"
+              >Name* <input type="text" name="name" id="name" required
+            /></label>
+            <label class="top" for="email">
+              Email*
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="business@email.com"
+            /></label>
+            <label class="top" for="questionDescription">
+              Question/Concern*
+              <textarea
+                rows="5"
+                cols="20"
+                name="questionDescription"
+                id="questionDescription"
+                required
+              ></textarea>
+            </label>
+          </fieldset>
+          <input
+            class="contactSubmitBtn"
+            type="submit"
+            value="Submit"
+            name="contact"
+          />
+        </form>
+      </div>
+      <div id="contactPageInfo">
+        <h2>Contact Us</h2>
+        <hr />
+        <div>
+          <h3>Address</h3>
+          <p>Montclair Chamber of Commerce</p>
+          <p>8880 Benson Ave, Ste 110</p>
+          <p>Montclair, California 91763</p>
         </div>
-        <div id="contactPageInfo">
-            <h2>Contact Us</h2>
-            <hr>
-            <div>
-                <h3>Address</h3>
-                <p>Montclair Chamber of Commerce</p>
-                <p>8880 Benson Ave, Ste 110</p>
-                <p>Montclair, California 91763</p>
-            </div>
-            <div >
-                <h3>Phone</h3>
-                <p>(909) 985-5104</p>
-            </div>
-            <div>
-                <h3>Email</h3>
-                <p>info@montclairchamber.com</p>
-            </div>
-
+        <div>
+          <h3>Phone</h3>
+          <p>(909) 985-5104</p>
         </div>
-        
+        <div>
+          <h3>Email</h3>
+          <p>info@montclairchamber.com</p>
+        </div>
+      </div>
     </main>
-    
+
     <footer id="footer-grid">
-        <img src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
-        <div class="contact-info">
-            <h1>Montlcair Chamber of Commerce</h1>
-            <h2>8880 Benson Ave, Ste 110</h2>
-            <h2>Montlcair, CA 91763</h2>
-        </div>
-        <div class="contact-info">
-            <h2>info@montclairchamber.org</h2>
-            <h2>+1(909) 985-5104</h2>
-            <a href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"><h2>Montclair Map</h2></a>
-        </div>
-        <div class="pageInfo">
-            <p id="webInfo"></p>
-            <p id="LastVisit"></p>
-
-        </div>
-        
+      <img
+        src="images/MontlcairChamberofCommerce.webp"
+        alt="Logo of Montlcair Chamber of Commerce"
+      />
+      <div class="contact-info">
+        <h1>Montlcair Chamber of Commerce</h1>
+        <h2>8880 Benson Ave, Ste 110</h2>
+        <h2>Montlcair, CA 91763</h2>
+      </div>
+      <div class="contact-info">
+        <h2>info@montclairchamber.org</h2>
+        <h2>+1(909) 985-5104</h2>
+        <a
+          href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"
+          ><h2>Montclair Map</h2></a
+        >
+      </div>
+      <div class="pageInfo">
+        <p id="webInfo"></p>
+        <p id="LastVisit"></p>
+      </div>
     </footer>
-<script src="scripts/app.js"></script>
-<script src="scripts/lastVisit.js"></script>
-<script src="scripts/contactValidation.js"></script>
-
-</body>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/lastVisit.js"></script>
+    <script src="scripts/contactValidation.js"></script>
+  </body>
 </html>

@@ -1,156 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-    content="The Join page for the chamber of commerce intends to provide users with valuable information about Memberships for businesses and show membership benefits like advertising, events, etc.">
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Join page for the chamber of commerce intends to provide users with valuable information about Memberships for businesses and show membership benefits like advertising, events, etc."
+    />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
     <title>Discover - Montlcair Chamber of Commerce</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="index.html">
-            <img id="nav-logo" src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
+      <a href="index.html">
+        <img
+          id="nav-logo"
+          src="images/MontlcairChamberofCommerce.webp"
+          alt="Logo of Montlcair Chamber of Commerce"
+        />
+      </a>
+      <div id="social-media">
+        <a href="https://www.instagram.com">
+          <img src="images/instagram.png" alt="Logo of Instagram" />
         </a>
-        <div id="social-media">
-            <a href="https://www.instagram.com">
-                <img src="images/instagram.png" alt="Logo of Instagram">
-            </a>
-            <a href="https://www.facebook.com">
-                <img src="images/facebook-icon.png" alt="Logo of Facebook">
-            </a>
-        </div>
-        <nav>
-            <button id="hamburguerBtn" title="hamburguerButton"><span>&#9776;</span><span>X</span></button>
-            <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            
-        </nav>
-        <div class="date"></div>
-        <div id="banner">
-            <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
-            <p id="closeBanner">&#10005;</p>
-        </div>
+        <a href="https://www.facebook.com">
+          <img src="images/facebook-icon.png" alt="Logo of Facebook" />
+        </a>
+      </div>
+      <nav>
+        <button id="hamburguerBtn" title="hamburguerButton">
+          <span>&#9776;</span><span>X</span>
+        </button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="date"></div>
+      <div id="banner">
+        <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
+        <p id="closeBanner">&#10005;</p>
+      </div>
     </header>
     <main id="join-grid">
-    
-        <div id="memberships">
-            <table>
-                <thead>
-                    
-                    <tr>
-                        <th>Membership Benefits</th>
-                        <th>Non-Profit</th>
-                        <th>Bronze</th>
-                        <th>Silver</th>
-                        <th>Gold</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Marketing Training</th>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                    </tr>
-                    <tr>
-                        <th>Advertising</th>
-                        <td class="cross">&#10005;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                    </tr>
-                    <tr>
-                        <th>Event Discounts</th>
-                        <td class="cross">&#10005;</td>
-                        <td class="cross">&#10005;</td>
-                        <td class="check">&check;</td>
-                        <td class="check">&check;</td>
-                    </tr>
-                    <tr>
-                        <th>Ribbon Cuttings</th>
-                        <td class="cross">&#10005;</td>
-                        <td class="cross">&#10005;</td>
-                        <td class="cross">&#10005;</td>
-                        <td class="check">&check;</td>
-                    </tr>
-                    <tr>
-                        <th>Cost</th>
-                        <th>Free</th>
-                        <th>$100</th>
-                        <th>$200</th>
-                        <th>$400</th>
-                    </tr>
-                </tbody>
-        
-            </table>
-        </div>
-        <div id="join-TextBox">
-            <h1>Join The Chamber</h1>
-            <p>Membership benefits for Montclair Businesses</p>
-        </div>
-        <div id="form">
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Business/Applicant Information</legend>
-                    <label class="top" for="firstname"> First Name* <input type="text" name="fname" id="firstname" required></label>
-                    <label class="top" for="lastname"> Last Name* <input type="text" name="lname" id="lastname" required></label>
-                    <label class="top" for="title"> Title <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" title="Please enter at least 7 alphabetical characters, hyphens or spaces" ></label>
-                    <label class="top" for="email"> Email* <input type="email" name="email" id="email" required placeholder="business@email.com"></label>
-                    <label class="top" for="cellphone"> Cell Phone <input type="tel" name="phone" id="cellphone" placeholder="1234567890"></label>
-                    <label class="top" for="businessname"> Business Name/Title* <input type="text" name="businessTitle" id="businessname" required></label>
-                    <label class="top" for="businessdescription"> Business Description <input type="text" name="businessDescription" id="businessdescription"></label>
+      <div id="memberships">
+        <table>
+          <thead>
+            <tr>
+              <th>Membership Benefits</th>
+              <th>Non-Profit</th>
+              <th>Bronze</th>
+              <th>Silver</th>
+              <th>Gold</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Marketing Training</th>
+              <td class="check">&check;</td>
+              <td class="check">&check;</td>
+              <td class="check">&check;</td>
+              <td class="check">&check;</td>
+            </tr>
+            <tr>
+              <th>Advertising</th>
+              <td class="cross">&#10005;</td>
+              <td class="check">&check;</td>
+              <td class="check">&check;</td>
+              <td class="check">&check;</td>
+            </tr>
+            <tr>
+              <th>Event Discounts</th>
+              <td class="cross">&#10005;</td>
+              <td class="cross">&#10005;</td>
+              <td class="check">&check;</td>
+              <td class="check">&check;</td>
+            </tr>
+            <tr>
+              <th>Ribbon Cuttings</th>
+              <td class="cross">&#10005;</td>
+              <td class="cross">&#10005;</td>
+              <td class="cross">&#10005;</td>
+              <td class="check">&check;</td>
+            </tr>
+            <tr>
+              <th>Cost</th>
+              <th>Free</th>
+              <th>$100</th>
+              <th>$200</th>
+              <th>$400</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="join-TextBox">
+        <h1>Join The Chamber</h1>
+        <p>Membership benefits for Montclair Businesses</p>
+      </div>
+      <div id="form">
+        <form method="get" action="thankyou.html">
+          <fieldset>
+            <legend>Business/Applicant Information</legend>
+            <label class="top" for="firstname">
+              First Name*
+              <input type="text" name="fname" id="firstname" required
+            /></label>
+            <label class="top" for="lastname">
+              Last Name* <input type="text" name="lname" id="lastname" required
+            /></label>
+            <label class="top" for="title">
+              Title
+              <input
+                type="text"
+                id="title"
+                name="title"
+                pattern="[A-Za-z\s\-]{7,}"
+                title="Please enter at least 7 alphabetical characters, hyphens or spaces"
+            /></label>
+            <label class="top" for="email">
+              Email*
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="business@email.com"
+            /></label>
+            <label class="top" for="cellphone">
+              Cell Phone
+              <input
+                type="tel"
+                name="phone"
+                id="cellphone"
+                placeholder="1234567890"
+            /></label>
+            <label class="top" for="businessname">
+              Business Name/Title*
+              <input
+                type="text"
+                name="businessTitle"
+                id="businessname"
+                required
+            /></label>
+            <label class="top" for="businessdescription">
+              Business Description
+              <input
+                type="text"
+                name="businessDescription"
+                id="businessdescription"
+            /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Membership Type</legend>
+            <div>Membership Options</div>
+            <label class="sbs" for="nonprofit"
+              ><input
+                type="radio"
+                name="membership"
+                value="nonProfit"
+                id="nonprofit"
+              />
+              Non-Profit - Free</label
+            >
+            <label class="sbs" for="bronze"
+              ><input
+                type="radio"
+                name="membership"
+                value="bronze"
+                id="bronze"
+              />
+              Bronze - $100</label
+            >
+            <label class="sbs" for="silver"
+              ><input
+                type="radio"
+                name="membership"
+                value="silver"
+                id="silver"
+              />
+              Silver - $200</label
+            >
+            <label class="sbs" for="gold"
+              ><input type="radio" name="membership" value="gold" id="gold" />
+              Gold - $400</label
+            >
+            <input type="hidden" id="date" name="date" value="currentDate" />
+          </fieldset>
 
-                </fieldset>
-                <fieldset>
-                    <legend>Membership Type</legend>
-                    <div>Membership Options</div>
-                    <label class="sbs" for="nonprofit"><input type="radio" name="membership" value="nonProfit" id="nonprofit"> Non-Profit - Free</label>
-                    <label class="sbs" for="bronze"><input type="radio" name="membership" value="bronze" id="bronze"> Bronze - $100</label>
-                    <label class="sbs" for="silver"><input type="radio" name="membership" value="silver" id="silver"> Silver - $200</label>
-                    <label class="sbs" for="gold"><input type="radio" name="membership" value="gold" id="gold"> Gold - $400</label>
-                    <input type="hidden" id="date" name="date" value="currentDate">
-                    
-                </fieldset>
-
-            
-                <input class="submitBtn" type="submit" value="Join" name="join">
-            </form>
-        </div>
-        
+          <input class="submitBtn" type="submit" value="Join" name="join" />
+        </form>
+      </div>
     </main>
     <footer id="footer-grid">
-        <img src="images/MontlcairChamberofCommerce.webp" alt="Logo of Montlcair Chamber of Commerce">
-        <div class="contact-info">
-            <h1>Montlcair Chamber of Commerce</h1>
-            <h2>8880 Benson Ave, Ste 110</h2>
-            <h2>Montlcair, CA 91763</h2>
-        </div>
-        <div class="contact-info">
-            <h2>info@montclairchamber.org</h2>
-            <h2>+1(909) 985-5104</h2>
-            <a href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"><h2>Montclair Map</h2></a>
-        </div>
-        <div class="pageInfo">
-            <p id="webInfo"></p>
-            <p id="LastVisit"></p>
-
-        </div>
-        
+      <img
+        src="images/MontlcairChamberofCommerce.webp"
+        alt="Logo of Montlcair Chamber of Commerce"
+      />
+      <div class="contact-info">
+        <h1>Montlcair Chamber of Commerce</h1>
+        <h2>8880 Benson Ave, Ste 110</h2>
+        <h2>Montlcair, CA 91763</h2>
+      </div>
+      <div class="contact-info">
+        <h2>info@montclairchamber.org</h2>
+        <h2>+1(909) 985-5104</h2>
+        <a
+          href="https://www.google.com/maps/place/Montclair,+California/@34.0710099,-117.701038,14z/data=!3m1!4b1!4m5!3m4!1s0x80c3322e9c6819f1:0x7e24f5d05f8ef4db!8m2!3d34.0775104!4d-117.6897776"
+          ><h2>Montclair Map</h2></a
+        >
+      </div>
+      <div class="pageInfo">
+        <p id="webInfo"></p>
+        <p id="LastVisit"></p>
+      </div>
     </footer>
-<script src="scripts/app.js"></script>
-<script src="scripts/lastVisit.js"></script>
-<script src="scripts/joinDate.js"></script>
-</body>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/lastVisit.js"></script>
+    <script src="scripts/joinDate.js"></script>
+  </body>
 </html>
