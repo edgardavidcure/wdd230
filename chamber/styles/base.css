@@ -288,12 +288,14 @@ nav {
   text-align: left;
   padding-left: 30px;
   padding-top: 0;
+  font-style: italic;
 }
 
 #news a {
   font-family: "Open sans";
   font-size: 1.2rem;
   color: #023c40;
+  font-style: normal;
 }
 .newsHeadline:nth-child(2) {
   display: none;

@@ -95,6 +95,10 @@
     grid-column: 2/4;
     grid-row: 3;
   }
+  #news p{
+    padding-bottom: 15px;
+
+  }
   .newsHeadline:nth-child(2) {
     display: block;
   }
