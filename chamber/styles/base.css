@@ -837,6 +837,8 @@ form label.top input:required:valid{
 
 #contact-TextBox h1{ 
     font-family: "unbounded";
+    padding: 0 10px;
+    text-align: center;
 }
 
 #contactForm input.contactSubmitBtn{
@@ -844,11 +846,11 @@ form label.top input:required:valid{
     background-color: #6a063f;
     color: white;
     border-radius: 2rem;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     margin: -30px 0 2rem;
     width: auto;
     max-width: 20rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: "unbounded";
 }
 #contactForm input.contactSubmitBtn:hover{
@@ -868,8 +870,9 @@ form label.top input:required:valid{
     font-size: 1rem;
     border: solid 1px #999;
     padding: .75rem;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: fit-content;
+    width: 300px;
+    max-width: 300px;
     color: #555;
     background-color: rgba(0, 0, 0, 0.06);
 }
@@ -880,12 +883,12 @@ form label.top input:required:valid{
     background-color: white;
     border-radius: 1rem;
     text-align: center;
-    min-width: 430px;
+    min-width: fit-content;
 }
 
 #contactPageInfo div {
     text-align: left;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 #contactPageInfo h2, #contactPageInfo h3{
     font-family: "unbounded";
