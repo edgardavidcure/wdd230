@@ -8,9 +8,108 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p id="tres">Hello world, here you are</p>
+    <header>
+        <div id="nav">
+            <ul>
+                <li class="links"><a href="index.html"><img src="images/home-icon.webp" alt="Home Icon" class="nav-icon">Home</a></li>
+                <li class="links fresh-icon"><a href="fresh.html"><img src="images/fresh-icon.png" alt="Fresh Icon" class="nav-icon">Fresh</a></li>
+                <li class="links"><a href="aboutus.html"><img src="images/about-icon.png" alt="About Icon" class="nav-icon">About Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="hero">
+            <img src="images/drink1-nb-min.png" alt="drink #1" class="hero-image" id="drink1">
+            <img src="images/drink2-nb-min.png" alt="drink #2" class="hero-image" id="drink2">
+            <img src="images/drink3-nb-min.png" alt="drink #3" class="hero-image" id="drink3">
+            <img src="images/drink4-nb-min.png" alt="drink #4" class="hero-image" id="drink4">
+            <img src="images/drink5-nb-min.png" alt="drink #5" class="hero-image" id="drink5">
+            <div id="hero-text">
+                <h1 class="headers">NEED A REFRESH?</h1>
+                <p class="paragraphs hero-paragraph">Get a fresh sip of our 100% organic fruit-drinks. You choose the fruits, we make the juice!</p>
+                <a href="fresh.html" class="call">Get a Drink</a>
+            </div>
+        </div>
+
+        <div id="intro">
+            <img src="images/hand-left-nb-min.png" alt="a left hand" id="left-hand">
+            <img src="images/hand-right-nb-min.png" alt="a right hand" id="right-hand">
+            <h2 class="headers">BOUNTIFUL FOODS</h2>
+            <p class="paragraphs intro-paragraph">We are a small business specializing in organic, locally grown foods. We sell and produce fruits directly from the farmers in the SoCal area. Our mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas in California.</p>
+        </div>
+        <div id="location">
+            <div id="weather">
+                <div id="current-temp">
+                    <div>
+                        <h2 class="headers">Carlsbad</h2>
+                        <p class="paragraphs" id="humidity"></p>
+                    </div>
+                    
+                    <img src="images/clearsky-icon.png" alt="clear sky" id="weather-icon">
+                    <div>
+                        <h3 class="headers" id="temperature">60&deg;</h3>
+                        <p class="paragraphs" id="weather-desc">Scattered Clouds</p>
+                    </div>
+                    
+                </div>
+                <div id="forecast">
+                    <div id="day1">
+                        <h3 id="day1-day" class="headers"></h3>
+                        <p id="day1-min-temp" class="paragraphs"></p>
+                        <p id="day1-max-temp" class="paragraphs"></p>
+                    </div>
+                    <div id="day2">
+                        <h3 id="day2-day" class="headers"></h3>
+                        <p id="day2-min-temp" class="paragraphs"></p>
+                        <p id="day2-max-temp" class="paragraphs"></p>
+                    </div>
+                    <div id="day3">
+                        <h3 id="day3-day" class="headers"></h3>
+                        <p id="day3-min-temp" class="paragraphs"></p>
+                        <p id="day3-max-temp" class="paragraphs"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="location-description">
+                <h2 class="headers">LOCATED IN CARLSBAD, CALIFORNIA</h2>
+                <p class="paragraphs location-paragraph">We know what hot weather is like, and we know how hot you are (In a good way 😆). That is why we prepare some of the best fresh drinks around the area. Carlsbad is a coastal city known for its beautiful beaches, world-class golf courses, and family-friendly attractions like LEGOLAND and the flower fields. Enjoy the sunshine and laid-back vibe.</p>
+            </div>
+        </div>
+        <div id="info">
+            <img src="" alt="">
+            <img src="" alt="">
+            <div id="info-card">
+                <h2 class="headers">TOTAL CUSTOM DRINKS ORDERED:</h2>
+                <h3 class="headers" id="submission-count"></h3>
+                <p class="paragraphs" id="card-message">NO DRINKS YET?! LET US TAKE CARE OF YOU</p>
+                <a href="fresh.html" class="call">Get a Drink</a>
+            </div>
+        </div>
+        <div id="social">
+            <div id="social-logo-section">
+                <a href="https://www.twitter.com"><img src="images/twitter.svg" alt="Twitter" class="social"></a>
+                <a href="https://www.facebook.com"><img src="images/facebook.svg" alt="Facebook" class="social"></a>
+                <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="Instagram" class="social"></a>
+            </div>
+            <h2 class="headers">CHECK HOW OTHERS ARE REFRESHING, AND DO NOT MISS A FRESH DRINK</h2>
+            <p></p>
+            <a href="fresh.html" class="call">Get a Drink</a>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-links">
+            <ul>
+                <li class="links"><a href="aboutus.html">About Us</a></li>
+                <li class="links"><a href="https://github.com/edgardavidcure">About Me</a></li>
+            </ul>
+        </div>
+        <div id="course">
+            <p id="webInfo" class="paragraphs"></p>
+        </div>
+    </footer>
 
 
 </body>
+<script src="scripts/weather.js"></script>
+<script src="scripts/homelocalstorage.js"></script>
 </html>
