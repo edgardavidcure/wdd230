@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <title>Home - Bountiful Foods</title>
+  </head>
+  <body>
+    <header>
+      <div id="nav-fresh">
+        <ul>
+          <li class="links">
+            <a href="index.html"
+              ><img
+                src="images/home-icon.webp"
+                alt="Home Icon"
+                class="nav-icon"
+              />Home</a
+            >
+          </li>
+          <li class="links fresh-icon">
+            <a href="fresh.html"
+              ><img
+                src="images/fresh-icon.png"
+                alt="Fresh Icon"
+                class="nav-icon"
+              />Fresh</a
+            >
+          </li>
+          <li class="links">
+            <a href="aboutus.html"
+              ><img
+                src="images/about-icon.png"
+                alt="About Icon"
+                class="nav-icon"
+              />About Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div id="hero-fresh">
+        <div id="hero-text">
+          <h1 class="headers">MAKE IT YOUR OWN</h1>
+          <p class="paragraphs hero-paragraph">
+            Choose your favourite fruit and we'll make sure to create your favourite drink
+          </p>
+        </div>
+      </div>
+
+      <div id="form">
+        <form method="get">
+            <fieldset>
+                <label for="fname" class="headers">
+                    Name*:
+                    <input type="text" name="name" id="fname" required class="paragraphs">
+                </label>
+                <label for="email" class="headers">
+                    Email*:
+                    <input type="email" name="email" id="email" required class="paragraphs">
+                </label>
+                <label for="phone" class="headers">
+                    Phone Number*:
+                    <input type="tel" name="phone" id="phone" placeholder="(909)-999-9999" required class="paragraphs">
+                </label>
+                <label for="fruit1" class="headers">
+                    Fruit #1*:
+                    <select name="fruit1" id="fruit1">
+                        <option disabled selected value="empty">---Select One---</option>
+                    </select>
+                </label>
+                <label for="fruit2" class="headers">
+                    Fruit #2*:
+                    <select name="fruit2" id="fruit2">
+                        <option disabled selected value="empty">---Select One---</option>
+                    </select>
+                </label>
+                <label for="fruit3" class="headers">
+                    Fruit #3*:
+                    <select name="fruit3" id="fruit3">
+                        <option disabled selected value="empty">---Select One---</option>
+                    </select>
+                </label>
+                <label for="instructions" class="headers">
+                    Special Instructions:
+                    <textarea name="instructions" id="instructions" cols="30" rows="10" placeholder="Add any special instructions here..."></textarea>
+                </label>
+                <input type="hidden" id="date" name="date" value="currentDate" />
+            </fieldset>
+            <input class="submitBtn" type="submit" value="PLACE ORDER" name="join" />
+
+        </form>
+        
+      </div>
+      
+        </div>
+      </div>
+      <div id="info-fresh">
+        <div id="info-card">
+            <span class="close">&times;</span>
+            <div id="order-details">
+                <h2 class="headers">ORDER DETAILS</h2>
+                <h3 class="headers">Name:</h3>
+                <p id="order-name"></p>
+                <h3 class="headers">Email:</h3>
+                <p id="order-email"></p>
+                <h3 class="headers">Phone:</h3>
+                <p id="order-phone"></p>
+                <h3 class="headers">Fruits:</h3>
+                <p id="order-fruits"></p>
+                <h3 class="headers">Instructions:</h3>
+                <p id="order-instructions"></p>
+                <h3 class="headers">Order Date:</h3>
+                <p id="order-date"></p>
+            </div>
+          
+            <div id="nutrition-facts">
+                <h2 class="headers">NUTRITION FACTS:</h2>
+                <h3 class="headers">Carbohydrates:</h3>
+                <p class="paragraphs" id="carbohydrates"></p>
+                <h3 class="headers">Protein:</h3>
+                <p class="paragraphs" id="protein"></p>
+                <h3 class="headers">Fat:</h3>
+                <p class="paragraphs" id="fat"></p>
+                <h3 class="headers">Sugar:</h3>
+                <p class="paragraphs" id="sugar"></p>
+                <h3 class="headers">Calories:</h3>
+                <p class="paragraphs" id="calories"></p>
+            </div>
+          
+        </div>
+      </div>
+      <div id="fresh-social">
+        <div id="social-logo-section">
+          <a href="https://www.twitter.com"
+            ><img src="images/twitter.svg" alt="Twitter" class="social"
+          /></a>
+          <a href="https://www.facebook.com"
+            ><img src="images/facebook.svg" alt="Facebook" class="social"
+          /></a>
+          <a href="https://www.instagram.com"
+            ><img src="images/instagram.svg" alt="Instagram" class="social"
+          /></a>
+        </div>
+        <h2 class="headers">
+            GIVE US A FOLLOW
+          </h2>
+      </div>
+    </main>
+    <footer id="fresh-footer">
+      <div id="footer-links">
+        <ul>
+          <li class="links"><a href="aboutus.html">About Us</a></li>
+          <li class="links">
+            <a href="https://github.com/edgardavidcure">About Me</a>
+          </li>
+        </ul>
+      </div>
+      <div id="course">
+        <p id="webInfo" class="paragraphs"></p>
+      </div>
+    </footer>
+
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/fruits.js"></script>
+</body>
+</html>
