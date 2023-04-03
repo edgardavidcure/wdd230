@@ -325,15 +325,10 @@ footer {
 
 /*----------------FRESH  PAGE-------------------*/
 
-#hero-fresh {
-  background: linear-gradient(0deg, #fdfcdc, #f6d43c);
-  height: 400px;
-  position: relative;
-  width: 100%;
-}
+
 #nav-fresh {
   padding: 2rem 0;
-  background-color: #f6d43c;
+  background-color: #3e721d;
   display: flex;
 }
 
@@ -342,7 +337,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   font-family: "roboto";
-  border-bottom: 4px solid #f6d43c;
+  border-bottom: 4px solid #3e721d;
   transition: 0.5s;
 }
 #nav-fresh .links:hover {
@@ -351,12 +346,73 @@ footer {
 
 #nav-fresh .links a {
   text-decoration: none;
-  color: #3e721d;
+  color: #fdfcdc;
   font-size: 1rem;
   padding-top: 5px;
   font-weight: 900;
 
 } 
+#hero-fresh {
+  background: linear-gradient(0deg, #fdfcdc, #3e721d);
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+
+}
+#hero-fresh .headers{
+  color: #fdfcdc;
+}
+#hero-fresh-images{
+  position: relative;
+  height: 300px;
+  margin-top: 5%;
+
+}
+#kiwi{
+  left: 60%;
+  top: 5%;
+  animation-name: floating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#apple{
+  top: 40%;
+  left: 75%;
+  animation-name: floating;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#banana{
+  left: 38%;
+  rotate: 50deg;
+  top: 25%;
+  z-index: 3;
+  animation-name: floating;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#pineapple{
+  left: 15%;
+  height: 250px;
+  width: auto;
+  rotate: 20deg;
+  animation-name: floating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#strawberry{
+  rotate: 45deg;
+  top: 10%;
+  left: -5%;
+  animation-name: floating;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 form{
   background-color: #fdfcdc;
   padding: 10px;
@@ -369,7 +425,7 @@ form fieldset{
   flex-direction: column;
   background-color: #3e721d;
   border-radius: 20px;
-  border: 2px solid black;
+  border: none;
 }
 
 form fieldset .headers{
@@ -390,6 +446,7 @@ form fieldset input {
   height: 30px;
   border-radius: 10px;
   padding: 5px;
+  border: none;
 }
 
 form fieldset select{
@@ -419,10 +476,11 @@ textarea{
 
 .submitBtn {
   font-family: "Montserrat";
+  font-size: 1rem;
   text-decoration: none;
   background-color: #ff850a;
   color: #fdfcdc;
-  border: 2px solid black;
+  border: none;
   padding: 1rem;
   border-radius: 20px;
   width: 200px;
@@ -506,15 +564,11 @@ textarea{
   padding: 0 10px;
 }
 #fresh-footer{
-  background-color: #ff850a;
+  padding-top: 100px;
+  background-color: #fdfcdc;
 }
 #fresh-footer ul li a{
-  color: #fdfcdc;
+  color: #3e721d;
 }
-#fresh-social {
-  background: linear-gradient(0deg, #ff850a, #fdfcdc);
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 100px 0;
-}
+
+
