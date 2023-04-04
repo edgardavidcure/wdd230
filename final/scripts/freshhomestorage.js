@@ -7,7 +7,6 @@ document.querySelector("form").addEventListener("submit", function (event) {
   }
   localStorage.setItem("submission_count", submissionCount);
 
-  document.querySelector("#submission-count").textContent = submissionCount;
 
   event.preventDefault();
 });
