@@ -47,7 +47,7 @@ body {
 
 #nav ul,
 #footer-links ul,
-#nav-fresh ul {
+#nav-fresh ul, #about-nav ul {
   padding: 0;
   margin: 0;
   display: flex;
@@ -582,4 +582,97 @@ textarea {
   text-align: left;
   margin: 0;
   padding: 0;
+}
+/*----------------FRESH  PAGE-------------------*/
+#about-nav{
+  background-color: #61a8fa;
+  display: flex;
+  padding: 2rem 0;
+}
+
+#about-nav a{
+  color: white;
+}
+
+#about-nav .links{
+  border-bottom: 4px solid #61a8fa;
+}
+#about-nav .links:hover{
+  border-bottom:4px solid #ff850a;
+}
+
+#about-hero{
+  background: linear-gradient(0deg, #fdfcdc, #61a8fa);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+#about-hero .hero-image{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  position: unset;
+}
+
+
+#about-hero #hero-text h1{
+  color: black;
+}
+
+#about-hero #hero-text p{
+  text-align: left;
+}
+#about-intro{
+  background-color: #fdfcdc;
+}
+#about-intro img, #about-commitment img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+#about-intro .intro-paragraph{
+  margin: 0 3rem;
+  padding-bottom: 100px;
+}
+
+#about-commitment{
+  background: linear-gradient(0deg, #3e721d, #fdfcdc);
+  padding-bottom: 100px;
+}
+#location-map{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#location-map .headers{
+  color: #fdfcdc;
+}
+#location-map iframe{
+  margin-top: 2rem;
+}
+
+
+#contact-info .headers{
+  margin: 0;
+  padding: 2rem;
+  color: #fdfcdc;
+}
+
+#contact-info .paragraphs{
+  text-align: center;
+  color: #fdfcdc;
+}
+
+#about-footer{
+  background-color: #3e721d;
+}
+
+#about-footer #footer-links a{
+  color: #fdfcdc;
+}
+
+#about-footer #course #webInfo{
+  color: #fdfcdc;
 }
