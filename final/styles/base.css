@@ -46,7 +46,8 @@ body {
 }
 
 #nav ul,
-#footer-links ul, #nav-fresh ul {
+#footer-links ul,
+#nav-fresh ul {
   padding: 0;
   margin: 0;
   display: flex;
@@ -322,9 +323,7 @@ footer {
   margin: 0;
 }
 
-
 /*----------------FRESH  PAGE-------------------*/
-
 
 #nav-fresh {
   padding: 2rem 0;
@@ -350,25 +349,22 @@ footer {
   font-size: 1rem;
   padding-top: 5px;
   font-weight: 900;
-
-} 
+}
 #hero-fresh {
   background: linear-gradient(0deg, #fdfcdc, #3e721d);
   height: 600px;
   width: 100%;
   overflow: hidden;
-
 }
-#hero-fresh .headers{
+#hero-fresh .headers {
   color: #fdfcdc;
 }
-#hero-fresh-images{
+#hero-fresh-images {
   position: relative;
   height: 300px;
   margin-top: 5%;
-
 }
-#kiwi{
+#kiwi {
   left: 60%;
   top: 5%;
   animation-name: floating;
@@ -376,7 +372,7 @@ footer {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-#apple{
+#apple {
   top: 40%;
   left: 75%;
   animation-name: floating;
@@ -384,7 +380,7 @@ footer {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-#banana{
+#banana {
   left: 38%;
   rotate: 50deg;
   top: 25%;
@@ -393,7 +389,7 @@ footer {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-#pineapple{
+#pineapple {
   left: 15%;
   height: 250px;
   width: auto;
@@ -403,7 +399,7 @@ footer {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-#strawberry{
+#strawberry {
   rotate: 45deg;
   top: 10%;
   left: -5%;
@@ -412,14 +408,14 @@ footer {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-form{
+form {
   background-color: #fdfcdc;
   padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
-form fieldset{
+form fieldset {
   display: flex;
   flex-direction: column;
   background-color: #3e721d;
@@ -427,13 +423,13 @@ form fieldset{
   border: none;
 }
 
-form fieldset .headers{
+form fieldset .headers {
   padding: 20px 5px;
   font-size: 1.2rem;
   text-align: left;
   color: #fdfcdc;
 }
-form fieldset label{
+form fieldset label {
   display: flex;
   flex-direction: column;
 }
@@ -448,7 +444,7 @@ form fieldset input {
   border: none;
 }
 
-form fieldset select{
+form fieldset select {
   width: 100%;
   height: 30px;
   text-align: center;
@@ -459,13 +455,11 @@ form fieldset select{
   margin: 10px 0;
 }
 
-
-
-textarea{
+textarea {
   max-width: 340px;
   min-width: 300px;
   min-height: 50px;
-  max-height: 100px ;
+  max-height: 100px;
   font-size: 1.2rem;
   font-family: "roboto";
   padding: 10px;
@@ -475,12 +469,12 @@ textarea{
 
 .submitBtn {
   font-family: "Montserrat";
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-decoration: none;
   background-color: #ff850a;
   color: #fdfcdc;
   border: none;
-  padding: 1rem;
+  padding: 1.5rem 1.1rem;
   border-radius: 20px;
   width: 200px;
   justify-content: center;
@@ -507,9 +501,8 @@ textarea{
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.8);
-
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #info-fresh #info-card {
@@ -525,21 +518,20 @@ textarea{
   width: 90%;
   padding-bottom: 10%;
   z-index: 4;
-
 }
-.close{
+.close {
   grid-column: 2/3;
   font-size: 3rem;
   justify-self: end;
   margin: 0 10px 0 0;
 }
-#info-card-header{
+#info-card-header {
   display: flex;
   grid-column: 1/3;
   justify-content: space-between;
   background-color: #f6d43c;
 }
-#info-fresh #info-card #info-card-header h2{
+#info-fresh #info-card #info-card-header h2 {
   margin: 20px auto;
   color: black;
 }
@@ -563,31 +555,31 @@ textarea{
   margin: 2rem 0 3rem;
 }
 
-#order-details{
+#order-details {
   grid-column: 1/2;
   align-items: center;
   padding: 0 10px;
 }
-#nutrition-facts{
+#nutrition-facts {
   grid-column: 2/3;
   border-left: 2px solid black;
   align-items: center;
   padding: 0 10px;
 }
-#info-fresh #info-card #nutrition-facts .paragraphs{
+#info-fresh #info-card #nutrition-facts .paragraphs {
   text-align: right;
+  font-size: 1.2rem;
 }
-#fresh-footer{
+#fresh-footer {
   padding-top: 100px;
   background-color: #fdfcdc;
 }
-#fresh-footer ul li a{
+#fresh-footer ul li a {
   color: #3e721d;
 }
 
-#info-fresh #info-card .paragraphs{
+#info-fresh #info-card .paragraphs {
   text-align: left;
   margin: 0;
   padding: 0;
 }
-
