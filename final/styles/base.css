@@ -476,8 +476,8 @@ textarea {
   font-family: "Montserrat";
   font-size: 1.2rem;
   text-decoration: none;
-  background-color: #ff850a;
-  color: white;
+  background-color: #f6d43c;
+  color: black;
   border: none;
   padding: 2rem 1.5rem;
   border-radius: 20px;
@@ -588,26 +588,26 @@ textarea {
   margin: 0;
   padding: 0;
 }
-/*----------------FRESH  PAGE-------------------*/
+/*----------------ABOUT  PAGE-------------------*/
 #about-nav{
-  background-color: #61a8fa;
+  background-color: #f6d43c;
   display: flex;
   padding: 2rem 0;
 }
 
 #about-nav a{
-  color: white;
+  color: BLACK;
 }
 
 #about-nav .links{
-  border-bottom: 4px solid #61a8fa;
+  border-bottom: 4px solid #f6d43c;
 }
 #about-nav .links:hover{
-  border-bottom:4px solid #ff850a;
+  border-bottom:4px solid #3e721d;
 }
 
 #about-hero{
-  background: linear-gradient(0deg, #fdfcdc, #61a8fa);
+  background: linear-gradient(0deg, #fdfcdc, #f6d43c);
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
