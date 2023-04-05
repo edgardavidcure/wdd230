@@ -44,15 +44,12 @@
     <main>
       <div id="about-hero">
         <div>
-          <img
-          src="images/farm.jpeg"
-          alt="drink #1"
-          class="hero-image"
-          id=""
-        />
+          <picture class="hero-image">
+            <source srcset="images/farm-medium.jpeg" media="(min-width: 400px) and (max-width: 1119px)">
+              <source srcset="images/farm-large.jpeg" media="(min-width: 1120px)">
+            <img src="images/farm-small.jpeg" alt="image of a farm in Carlsbad" class="hero-image" loading="lazy">
+          </picture>
         </div>
-        
-        
         <div id="hero-text">
           <h1 class="headers">WHO WE ARE</h1>
           <p class="paragraphs hero-paragraph">
@@ -62,22 +59,29 @@
       </div>
 
       <div id="about-intro">
-        <img src="images/fruitbag.jpeg" alt="image of fruits">
+        <picture>
+          <source srcset="images/fruitbag-medium.jpeg" media="(min-width: 400px) and (max-width:1119px)">
+            <source srcset="images/fruitbag-large.jpeg" media="(min-width: 1120px)">
+          <img src="images/fruitbag-small.jpeg" alt="image of a fruit bag with smoothies" loading="lazy">
+        </picture>
         <h2 class="headers">OUR MISSION</h2>
         <p class="paragraphs intro-paragraph">
             The company's mission is to promote healthy living through the production and distribution of organic fruit bags and fruit drinks that are locally sourced and environmentally sustainable. Bountiful Foods believes that the health of our community is directly linked to the quality of the food we consume, and they strive to provide their customers with the best possible products. They work closely with local farmers and suppliers to ensure that their products are always fresh and of the highest quality, while minimizing their impact on the environment.
         </p>
       </div>
       <div id="about-commitment">
-        <img src="images/fruitbag2.jpeg" alt="image of fruits">
+        <picture>
+          <source srcset="images/fruitbag2-medium.jpeg" media="(min-width: 400px) and (max-width:1119px)">
+            <source srcset="images/fruitbag2-large.jpeg" media="(min-width: 1120px)">
+          <img src="images/fruitbag2-small.jpeg" alt="image of fruit bags with smoothies" loading="lazy">
+        </picture>
         <h2 class="headers">OUR COMMITMENT</h2>
         <p class="paragraphs intro-paragraph">
             At Bountiful Foods, we are committed to creating a sustainable business model that supports the local community. They prioritize fair and ethical practices throughout their supply chain, from sourcing to distribution. Additionally, they donate a portion of their profits to local charities and organizations that support community health and wellness initiatives. With a focus on quality, sustainability, and community, Bountiful Foods is dedicated to providing delicious, healthy, and locally-sourced fruits to the people of Carlsbad and beyond.
         </p>
         <div id="location-map">
             <h2 class="headers">COME VISIT US!</h2>
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.70972074362!2d-117.35801467970781!3d33.12164363736197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20California!5e0!3m2!1ses!2sus!4v1680630859350!5m2!1ses!2sus" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://goo.gl/maps/BZjhyWHrvDgMA2t18"><img src="images/carlsbad-map-min.png" alt="map of carlsbad california" loading="lazy" id="map"></a>
             <div id="contact-info">
                 <p class="paragraphs intro-paragraph">
                     +1(909)-765-8998
@@ -106,8 +110,6 @@
       </div>
     </footer>
 
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/homelocalstorage.js"></script>
     <script src="scripts/app.js"></script>
   </body>
 </html>

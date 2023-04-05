@@ -39,7 +39,7 @@ body {
 
 .links a {
   text-decoration: none;
-  color: #fdfcdc;
+  color: white;
   font-size: 1rem;
   padding-top: 5px;
   font-weight: 900;
@@ -87,7 +87,7 @@ ul li {
   font-family: "roboto";
   text-decoration: none;
   background-color: #61a8fa;
-  color: #fdfcdc;
+  color: white;
   border: 2px solid black;
 
   padding: 1rem;
@@ -472,7 +472,7 @@ textarea {
   font-size: 1.2rem;
   text-decoration: none;
   background-color: #ff850a;
-  color: #fdfcdc;
+  color: white;
   border: none;
   padding: 2rem 1.5rem;
   border-radius: 20px;
@@ -633,11 +633,21 @@ textarea {
 #about-intro .intro-paragraph{
   margin: 0 3rem;
   padding-bottom: 100px;
+  font-size: 1.2rem;
 }
 
 #about-commitment{
   background: linear-gradient(0deg, #3e721d, #fdfcdc);
   padding-bottom: 100px;
+}
+
+#about-commitment .paragraphs{
+  font-size: 1.2rem;
+}
+
+#location-map #map{
+  width: 300px;
+  margin: 1rem 1rem;
 }
 #location-map{
   margin-top: 80px;
@@ -648,9 +658,6 @@ textarea {
 }
 #location-map .headers{
   color: #fdfcdc;
-}
-#location-map iframe{
-  margin-top: 2rem;
 }
 
 
