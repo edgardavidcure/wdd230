@@ -39,7 +39,7 @@ body {
 
 .links a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 1rem;
   padding-top: 5px;
   font-weight: 900;
@@ -86,7 +86,7 @@ ul li {
 .call {
   font-family: "roboto";
   text-decoration: none;
-  background-color: #61a8fa;
+  background-color: #3e721d;
   color: white;
   border: 2px solid black;
 
@@ -269,12 +269,16 @@ ul li {
 #info-card h2,
 #info-card h3,
 #info-card p {
-  color: #fdfcdc;
+  color: white;
 }
 
 #info-card p {
   padding: 1rem 2rem;
   text-align: center;
+}
+#info-card .call{
+  background-color: #61a8fa;
+  color: white;
 }
 
 #info-card h3 {
