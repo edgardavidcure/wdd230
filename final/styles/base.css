@@ -406,7 +406,7 @@ footer {
 }
 #banana {
   left: 38%;
-  rotate: 50deg;
+  rotate: z 50deg;
   top: 25%;
   animation-name: floating;
   animation-duration: 11s;
@@ -417,14 +417,14 @@ footer {
   left: 15%;
   height: 250px;
   width: auto;
-  rotate: 20deg;
+  rotate: z 20deg;
   animation-name: floating;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 #strawberry {
-  rotate: 45deg;
+  rotate: z 45deg;
   top: 10%;
   left: -5%;
   animation-name: floating;
