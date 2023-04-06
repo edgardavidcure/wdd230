@@ -9,7 +9,7 @@ const protein = document.getElementById("protein");
 const fat = document.getElementById("fat")
 const sugar = document.getElementById("sugar");
 const calories = document.getElementById("calories");
-
+const closeButton = document.querySelector(".close");
 
 const inputName = document.getElementById("fname");
 const inputEmail = document.getElementById("email");
@@ -35,8 +35,20 @@ let fruit2Value;
 let fruit3value;
 
 
-
-
+closeButton.addEventListener("click", function(){
+    caloriesTotal = 0
+    carbsTotal = 0
+    proteinTotal = 0
+    fatTotal = 0
+    sugarTotal = 0
+})
+window.addEventListener("click", function(){
+    caloriesTotal = 0
+    carbsTotal = 0
+    proteinTotal = 0
+    fatTotal = 0
+    sugarTotal = 0
+})
 function nutritionLabel(fruitsData){
     form.addEventListener("submit", function() {
         const nameValue = inputName.value;

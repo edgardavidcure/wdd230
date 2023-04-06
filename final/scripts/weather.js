@@ -12,16 +12,8 @@ const day3MinTemp = document.getElementById("day3-min-temp");
 const day1MaxTemp = document.getElementById("day1-max-temp");
 const day2MaxTemp = document.getElementById("day2-max-temp");
 const day3MaxTemp = document.getElementById("day3-max-temp");
+const imageElement = document.getElementById("weather-icon")
 
-const days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
 const dates = [];
 const forecastDays = [];
 
@@ -38,27 +30,23 @@ const daysOfWeek = [
   "Friday",
   "Saturday",
 ];
+const weatherImagesUrls = {
+  "Clear Sky": "images/clearsky-icon.png",
+  "Few Clouds": "images/fewclouds-icon.png",
+  "Scattered Clouds": "images/scatteredclouds-icon.png",
+  "Broken Clouds": "images/brokenclouds-icon.png",
+  "Shower Rain": "images/showerrain-icon.png",
+  "Rain": "images/rain-icon.png",
+  "Thunderstorm": "images/thunderstorm-icon.png",
+  "Snow": "images/snow-icon.png",
+  "Mist": "images/mist-icon.png",
+}
 
 async function getForecastDays() {
   try {
     const response = await fetch(apiUrl);
     const data = await response.json();
 
-    // Filter the list of forecasts to only include the next three days
-    const filteredForecasts = data.list.filter((forecast) => {
-      const forecastDate = new Date(forecast.dt_txt);
-      const now = new Date();
-      const diffInDays =
-        (forecastDate.getTime() - now.getTime()) / (1000 * 3600 * 24);
-      return diffInDays >= 0 && diffInDays < 3;
-    });
-
-    // Map the list of forecast dates to names of the days of the week
-    const forecastDays = filteredForecasts.map((forecast) => {
-      const forecastDate = new Date(forecast.dt_txt);
-      const dayOfWeek = daysOfWeek[forecastDate.getDay()];
-      return dayOfWeek;
-    });
     const threeDayForecast = data.list.filter((forecast) => {
       const forecastDate = new Date(forecast.dt * 1000);
       const now = new Date();
@@ -66,6 +54,14 @@ async function getForecastDays() {
         (forecastDate.getTime() - now.getTime()) / (1000 * 3600 * 24);
       return diffInDays >= 0 && diffInDays < 3;
     });
+
+    // Map the list of forecast dates to names of the days of the week
+    const forecastDays = threeDayForecast.map((forecast) => {
+      const forecastDate = new Date(forecast.dt_txt);
+      const dayOfWeek = daysOfWeek[forecastDate.getDay()];
+      return dayOfWeek;
+    });
+    
 
     const groupedByDate = {};
     threeDayForecast.forEach((forecast) => {
@@ -84,28 +80,15 @@ async function getForecastDays() {
       const maxTemperatures = forecasts.map(
         (forecast) => forecast.main.temp_max
       );
-      const avgMinTemperature = minTemperatures.length
-        ? Math.round(
-            minTemperatures.reduce((a, b) => a + b) / minTemperatures.length
-          )
-        : null;
-      const avgMaxTemperature = maxTemperatures.length
-        ? Math.round(
-            maxTemperatures.reduce((a, b) => a + b) / maxTemperatures.length
-          )
-        : null;
       avgTemperatures[date] = {
         minTemperature: Math.min(...minTemperatures),
-        maxTemperature: Math.max(...maxTemperatures),
-        avgMinTemperature,
-        avgMaxTemperature,
+        maxTemperature: Math.max(...maxTemperatures)
       };
     });
 
     const uniqueDays = [...new Set(forecastDays)];
     // Do something with the list of names of the days of the week
     drawWeatherForecast(uniqueDays, avgTemperatures);
-    console.log(avgTemperatures);
   } catch (error) {
     console.error(error);
   }
@@ -151,8 +134,17 @@ function drawWeatherForecast(days, forecast) {
 
 function drawCurrentWeather(temp, description, humidity) {
   currentTemperature.innerHTML = `${kelvinToFahrenheit(temp)}&degF`;
-  weatherDescription.innerHTML = capitalize(description);
+  
+  const capitalizedDescription = capitalize(description);
+  weatherDescription.innerHTML = capitalizedDescription;
   humidityP.innerHTML = `${humidity}% Humidity`;
+  let iconUrl = weatherImagesUrls[capitalizedDescription];
+  if (!iconUrl || iconUrl === undefined) {
+    iconUrl = `https://openweathermap.org/img/w/${d.weather[0].icon}.png`;
+  }
+  imageElement.setAttribute("src", iconUrl);
+  imageElement.setAttribute("alt", capitalizedDescription);
+
 }
 
 function kelvinToCelsius(temperature) {

@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+  name="description"
+  content="Bountiful Foods makes 100% organic fruit-drinks. This page allows you to order custom drinks and provides nutrition-facts for the drinks of your choice" />
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+
     <title>Fresh - Bountiful Foods</title>
   </head>
   <body>
@@ -50,17 +57,19 @@
           </p>
         </div>
         <div id="hero-fresh-images">
-          <img src="images/kiwi.png" alt="Image of a kiwi" class="hero-image" id="kiwi">
-          <img src="images/apple.png" alt="Image of an apple" class="hero-image" id="apple">
-          <img src="images/strawberry.png" alt="Image of a strawberry" class="hero-image" id="strawberry">
-          <img src="images/banana.png" alt="Image of a banana" class="hero-image" id="banana">
-          <img src="images/pineapple.png" alt="Image of a pineapple" class="hero-image" id="pineapple">
+          <img src="images/kiwi.png" alt="Image of a kiwi" class="hero-image" id="kiwi" loading="lazy">
+          <img src="images/apple.png" alt="Image of an apple" class="hero-image" id="apple" loading="lazy">
+          <img src="images/strawberry.png" alt="Image of a strawberry" class="hero-image" id="strawberry" loading="lazy">
+          <img src="images/banana.png" alt="Image of a banana" class="hero-image" id="banana" loading="lazy">
+          <img src="images/pineapple.png" alt="Image of a pineapple" class="hero-image" id="pineapple" loading="lazy">
         </div>
       </div>
 
       <div id="form">
         <form method="get">
             <fieldset>
+                <legend class="headers">Order Info</legend>
+
                 <label for="fname" class="headers">
                     Name*:
                     <input type="text" name="name" id="fname" required class="paragraphs">

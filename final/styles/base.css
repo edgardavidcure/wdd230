@@ -32,6 +32,8 @@ body {
   font-family: "roboto";
   border-bottom: 4px solid #ff850a;
   transition: 0.5s;
+  padding-bottom: 5px;
+
 }
 .links:hover {
   border-bottom: 4px solid #f6d43c;
@@ -139,9 +141,13 @@ ul li {
   animation-timing-function: linear;
 }
 #drink2 {
-  left: 33%;
+  left: 42%;
   top: 80%;
   display: none;
+  animation-name: floating;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 #drink3 {
   left: 20%;
@@ -239,6 +245,19 @@ ul li {
   align-items: center;
   justify-content: space-evenly;
 }
+#current-temp div{
+  width: 33.3%;
+  margin: 0 auto;
+}
+#day1{
+  width: 33.3%;
+}
+#day2{
+  width: 33.3%;
+}
+#day3{
+  width: 33.3%;
+}
 #temperature {
   font-size: 2rem;
 }
@@ -246,9 +265,9 @@ ul li {
 #forecast {
   display: flex;
   border-top: 2px solid black;
-  justify-content: space-evenly;
-  margin: 20px;
-  padding: 20px;
+  justify-content:stretch;
+  margin: 20px 0;
+  padding: 20px 5px;
 }
 #info {
   background-color: #f6d43c;
@@ -426,6 +445,7 @@ form fieldset {
   background-color: #3e721d;
   border-radius: 20px;
   border: none;
+
 }
 
 form fieldset .headers {
@@ -438,7 +458,14 @@ form fieldset label {
   display: flex;
   flex-direction: column;
 }
-
+form fieldset legend.headers{
+  color: black;
+  background-color: #f6d43c;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 1rem 5rem;
+  font-size: 1.8rem;
+}
 form fieldset input {
   font-size: 1.2rem;
   margin: 10px 0;
@@ -455,13 +482,14 @@ form fieldset select {
   text-align: center;
   font-family: "roboto";
   font-size: 1.2rem;
-  background-color: white;
+  background-color: #eee3b2;
   border-radius: 10px;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 textarea {
-  max-width: 340px;
+  max-width: 310px;
   min-width: 300px;
   min-height: 50px;
   max-height: 100px;
@@ -529,6 +557,7 @@ textarea {
   font-size: 3rem;
   justify-self: end;
   margin: 0 10px 0 0;
+  cursor: pointer;
 }
 #info-card-header {
   display: flex;
