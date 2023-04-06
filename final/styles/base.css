@@ -216,6 +216,10 @@ ul li {
   text-align: center;
   padding-top: 10px;
 }
+#location #weather > p{
+  padding: 0;
+  font-size: 0.8rem;
+}
 #weather p,
 #location-description > h2,
 #location h2,
@@ -266,7 +270,7 @@ ul li {
   display: flex;
   border-top: 2px solid black;
   justify-content:stretch;
-  margin: 20px 0;
+  margin: 20px 0 0;
   padding: 20px 5px;
 }
 #info {
