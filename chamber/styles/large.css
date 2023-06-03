@@ -16,6 +16,7 @@
     top: initial;
     position: initial;
     justify-content: space-between;
+    transition: unset;
   }
 
   nav ul li a:hover {
@@ -215,6 +216,8 @@
     background-color: #023c40;
     padding: 0;
     border-radius: 20px;
+    width: fit-content;
+    overflow: hidden;
   }
 
   #discover-hero img {
@@ -262,12 +265,15 @@
 
   #memberships {
     min-width: fit-content;
-    max-width: fit-content;
+    max-width: 500px;
     grid-column: 2/3;
     grid-row: 2/3;
-    margin: 0 auto;
+    align-self: start;
+    margin: 30px auto 11rem;
     width: 80%;
     padding: 2% 1%;
+    position: sticky;
+    top: 5rem;
   }
 
   #form {
@@ -286,7 +292,7 @@
   }
 
   table {
-    font-size: 1.3vw;
+    font-size: 2vh;
   }
 
   th {
